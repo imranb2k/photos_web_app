@@ -10,26 +10,14 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
-    @JsonProperty("username")
-    private String username;
-    @JsonProperty("profile_picture")
-    private String profile_picture;
 
-    @JsonProperty("username")
-    public String getUsername() {
-        return username;
-    }
-    @JsonProperty("username")
-    public void setUsername(String username) {
-        this.username = username;
+    private String url;
+
+    public String getUrl() {
+        return url;
     }
 
-    @JsonProperty("profile_picture")
-    public String getProfile_picture() {
-        return profile_picture;
-    }
-    @JsonProperty("profile_picture")
-    public void setProfile_picture(String profile_picture) {
-        this.profile_picture = profile_picture;
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

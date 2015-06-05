@@ -7,23 +7,23 @@
 
 <h1>Welcome to the HomePage</h1>
 
-<table>
+<form action="home3">
+    <input type="text" name="count">
+    <input type="submit" value="Submit">
+</form>
 
-    <thead>
-    <tr>
-        <th>User</th>
-    </tr>
-    </thead>
+<form action="home4">
+    <input type="text" name="tag">
+    <input type="submit" value="Submit">
+</form>
 
-    <tbody>
+
     {{#user}}
-        <tr>
-            <td>{{username}}</td>
-        </tr>
-    {{/user}}
-    </tbody>
 
-</table>
+     <img src="{{url}}">
+
+    {{/user}}
+
 
 <form action="submitHome" method="post">
     <input type="submit" value="Sign In">

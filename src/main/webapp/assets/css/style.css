@@ -4,3 +4,13 @@
     margin-right: auto;
     padding: 20px 0px 20px 0px;
 }
+
+#banner-search {
+    padding: 15px 0px 0px 0px;
+    float: left;
+}
+
+#search-input{
+    padding: 3px 5px 0px 420px;
+    float: left;
+}

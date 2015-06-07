@@ -1132,7 +1132,7 @@ table td.numeric {
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
   color: #fff;
-  margin: 0 15px 15px 0;
+  margin: 0 5px 15px 10px;
   padding: 0.52632em 0.78947em 0.26316em 0.78947em;
   vertical-align: top; }
   /* line 49, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */

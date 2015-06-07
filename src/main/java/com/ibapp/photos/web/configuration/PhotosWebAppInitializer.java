@@ -8,10 +8,6 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
-/**
- * Created by imranbordiwala on 02/06/2015.
- */
-
 public class PhotosWebAppInitializer implements WebApplicationInitializer{
 
     public void onStartup(ServletContext servletContext) throws ServletException {

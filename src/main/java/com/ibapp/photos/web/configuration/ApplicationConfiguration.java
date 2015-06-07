@@ -6,18 +6,21 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.mustache.MustacheViewResolver;
 import org.springframework.web.servlet.view.mustache.java.MustacheJTemplateFactory;
-
-/**
- * Created by imranbordiwala on 02/06/2015.
- */
 
 @Configuration
 @ComponentScan(basePackages = "com.ibapp.photos.web")
 @EnableWebMvc
 public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
+
+    @Override
+    public void addResourceHandlers(final ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/css/**").addResourceLocations("/assets/css/");
+        registry.addResourceHandler("/images/**").addResourceLocations("/assets/content/images/");
+    }
 
     @Bean
     public ViewResolver getViewResolver (ResourceLoader resourceLoader) {

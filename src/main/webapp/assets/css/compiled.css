@@ -1,0 +1,4976 @@
+/* ================================================================
+   				template styles
+   ================================================================ */
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 19, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .grid-row {
+  background: #bfc1c3; }
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .column-highlight {
+  background: #dee0e2;
+  width: 100%; }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-back-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  margin-top: 30px; }
+
+/* line 35, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+/* line 44, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.js-enabled .js-hidden {
+  display: none; }
+
+/* Borrowed from http://meyerweb.com/eric/tools/css/reset/ */
+/* line 6, ../../../app/sass/libs/gov_elements/elements/_reset.scss */
+div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 24, ../../../app/sass/libs/gov_elements/elements/_reset.scss */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: normal; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 11, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+main {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased; }
+  @media (max-width: 640px) {
+    /* line 11, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    main {
+      font-size: 16px;
+      line-height: 1.25; } }
+
+/* line 17, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-xxlarge {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 17, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-xxlarge {
+      font-size: 53px;
+      line-height: 1.03774; } }
+
+/* line 20, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-xlarge {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.04167;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 20, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-xlarge {
+      font-size: 32px;
+      line-height: 1.09375; } }
+
+/* line 23, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-large {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 23, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-large {
+      font-size: 24px;
+      line-height: 1.04167; } }
+
+/* line 26, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-medium {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 26, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-medium {
+      font-size: 18px;
+      line-height: 1.2; } }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-small {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 29, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-small {
+      font-size: 16px;
+      line-height: 1.25; } }
+
+/* line 32, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.font-xsmall {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 32, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .font-xsmall {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+/* line 37, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-xxlarge {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 37, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-xxlarge {
+      font-size: 53px;
+      line-height: 1.03774; } }
+
+/* line 40, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-xlarge {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.04167;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 40, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-xlarge {
+      font-size: 32px;
+      line-height: 1.09375; } }
+
+/* line 43, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-large {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 43, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-large {
+      font-size: 24px;
+      line-height: 1.04167; } }
+
+/* line 46, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-medium {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 46, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-medium {
+      font-size: 18px;
+      line-height: 1.2; } }
+
+/* line 49, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-small {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 49, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-small {
+      font-size: 16px;
+      line-height: 1.25; } }
+
+/* line 52, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.bold-xsmall {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 52, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .bold-xsmall {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+/* line 61, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.heading-xlarge {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.04167;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 0.46875em;
+  margin-bottom: 0.9375em; }
+  @media (max-width: 640px) {
+    /* line 61, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-xlarge {
+      font-size: 32px;
+      line-height: 1.09375; } }
+  @media (min-width: 641px) {
+    /* line 61, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-xlarge {
+      margin-top: 0.625em;
+      margin-bottom: 1.25em; } }
+  /* line 72, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+  .heading-xlarge .heading-secondary {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 1.11111;
+    font-weight: 400;
+    text-transform: none;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    display: block;
+    color: #6f777b; }
+    @media (max-width: 640px) {
+      /* line 72, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+      .heading-xlarge .heading-secondary {
+        font-size: 20px;
+        line-height: 1.11111; } }
+    @media (min-width: 641px) {
+      /* line 72, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+      .heading-xlarge .heading-secondary {
+        padding-top: 4px;
+        padding-bottom: 6px; } }
+
+/* line 81, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.heading-large {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 1.04167em;
+  margin-bottom: 0.41667em; }
+  @media (max-width: 640px) {
+    /* line 81, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-large {
+      font-size: 24px;
+      line-height: 1.04167; } }
+  @media (min-width: 641px) {
+    /* line 81, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-large {
+      margin-top: 1.25em;
+      margin-bottom: 0.55556em; } }
+  /* line 92, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+  .heading-large .heading-secondary {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    padding-top: 9px;
+    padding-bottom: 6px;
+    display: block;
+    color: #6f777b; }
+    @media (max-width: 640px) {
+      /* line 92, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+      .heading-large .heading-secondary {
+        font-size: 18px;
+        line-height: 1.2; } }
+    @media (min-width: 641px) {
+      /* line 92, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+      .heading-large .heading-secondary {
+        padding-top: 6px;
+        padding-bottom: 4px; } }
+
+/* line 101, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.heading-medium {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em; }
+  @media (max-width: 640px) {
+    /* line 101, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-medium {
+      font-size: 18px;
+      line-height: 1.2; } }
+  @media (min-width: 641px) {
+    /* line 101, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-medium {
+      margin-top: 1.875em;
+      margin-bottom: 0.83333em; } }
+
+/* line 114, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.heading-small {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 0.625em;
+  margin-bottom: 0.3125em; }
+  @media (max-width: 640px) {
+    /* line 114, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-small {
+      font-size: 16px;
+      line-height: 1.25; } }
+  @media (min-width: 641px) {
+    /* line 114, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .heading-small {
+      margin-top: 1.05263em; } }
+
+/* line 127, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+p {
+  margin-top: 0.3125em;
+  margin-bottom: 1.25em; }
+  @media (min-width: 641px) {
+    /* line 127, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    p {
+      margin-top: 0.26316em;
+      margin-bottom: 1.05263em; } }
+
+/* line 139, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.lede {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 139, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+    .lede {
+      font-size: 18px;
+      line-height: 1.2; } }
+
+/* line 145, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.text {
+  max-width: 30em; }
+
+/* line 149, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.text-secondary {
+  color: #6f777b; }
+
+/* line 154, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.link {
+  color: #005ea5;
+  text-decoration: underline; }
+
+/* line 158, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.link:visited {
+  color: #4c2c92; }
+
+/* line 161, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.link:hover {
+  color: #2e8aca; }
+
+/* line 164, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+.link:active {
+  color: #005ea5; }
+
+/* line 169, ../../../app/sass/libs/gov_elements/elements/_elements-typography.scss */
+pre,
+code {
+  font-size: 13px;
+  line-height: 19px;
+  color: #0b0c0c;
+  background-color: #f8f8f8;
+  border: 1px solid #bfc1c3;
+  padding: 3px 7px; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+#content {
+  max-width: 960px;
+  margin: 0 15px; }
+  @media (min-width: 641px) {
+    /* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+    #content {
+      margin: 0 30px; } }
+  @media (min-width: 1020px) {
+    /* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+    #content {
+      margin: 0 auto; } }
+
+/* line 60, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+.grid-row {
+  margin: 0 -15px; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 19, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .grid-row {
+  background: #bfc1c3; }
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .column-highlight {
+  background: #dee0e2;
+  width: 100%; }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-back-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  margin-top: 30px; }
+
+/* line 35, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+/* line 44, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.js-enabled .js-hidden {
+  display: none; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+#content {
+  max-width: 960px;
+  margin: 0 15px; }
+  @media (min-width: 641px) {
+    /* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+    #content {
+      margin: 0 30px; } }
+  @media (min-width: 1020px) {
+    /* line 18, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+    #content {
+      margin: 0 auto; } }
+
+/* line 60, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_grid_layout.scss */
+.grid-row {
+  margin: 0 -15px; }
+
+/* line 16, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+#content {
+  padding-bottom: 30px; }
+  @media (min-width: 769px) {
+    /* line 16, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    #content {
+      padding-bottom: 90px; } }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+.phase-banner {
+  padding: 10px 0 8px 0;
+  border-bottom: 1px solid #bfc1c3; }
+  @media (min-width: 641px) {
+    /* line 29, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    .phase-banner {
+      padding-bottom: 10px; } }
+  /* line 19, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+  .phase-banner p {
+    margin: 0;
+    color: #000;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none; }
+    @media (max-width: 640px) {
+      /* line 19, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+      .phase-banner p {
+        font-size: 14px;
+        line-height: 1.14286; } }
+  /* line 25, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+  .phase-banner .phase-tag {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px 0 0;
+    padding: 2px 5px 0;
+    font-family: "nta", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d53880; }
+    @media (min-width: 641px) {
+      /* line 25, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+      .phase-banner .phase-tag {
+        vertical-align: baseline; } }
+    @media (max-width: 640px) {
+      /* line 25, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+      .phase-banner .phase-tag {
+        font-size: 14px;
+        line-height: 1.14286; } }
+  /* line 29, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+  .phase-banner span {
+    display: -moz-inline-stack;
+    display: inline-block;
+    width: 75%;
+    vertical-align: top; }
+    @media (min-width: 641px) {
+      /* line 29, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_alpha-beta.scss */
+      .phase-banner span {
+        width: auto;
+        vertical-align: baseline; } }
+
+/* line 56, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+.column-quarter {
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (min-width: 641px) {
+    /* line 56, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    .column-quarter {
+      float: left;
+      width: 25%; } }
+
+/* line 59, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+.column-half {
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (min-width: 641px) {
+    /* line 59, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    .column-half {
+      float: left;
+      width: 50%; } }
+
+/* line 62, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+.column-third {
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (min-width: 641px) {
+    /* line 62, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    .column-third {
+      float: left;
+      width: 33.33333%; } }
+
+/* line 65, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+.column-two-thirds {
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media (min-width: 641px) {
+    /* line 65, ../../../app/sass/libs/gov_elements/elements/_layout.scss */
+    .column-two-thirds {
+      float: left;
+      width: 66.66667%; } }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 19, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .grid-row {
+  background: #bfc1c3; }
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .column-highlight {
+  background: #dee0e2;
+  width: 100%; }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-back-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  margin-top: 30px; }
+
+/* line 35, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+/* line 44, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.js-enabled .js-hidden {
+  display: none; }
+
+/* line 8, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+fieldset {
+  width: 100%; }
+
+/* line 14, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-group {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px; }
+  @media (min-width: 641px) {
+    /* line 14, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-group {
+      margin-bottom: 30px; } }
+
+/* line 24, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-group-related {
+  margin-bottom: 10px; }
+  @media (min-width: 641px) {
+    /* line 24, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-group-related {
+      margin-bottom: 20px; } }
+
+/* line 31, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-group-compound {
+  margin-bottom: 10px; }
+
+/* line 37, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-title {
+  margin-bottom: 30px; }
+  @media (min-width: 641px) {
+    /* line 37, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-title {
+      margin-bottom: 45px; } }
+
+/* line 48, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-label,
+.form-label-bold {
+  display: block;
+  color: #0b0c0c; }
+
+/* line 54, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-label {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  margin-bottom: 5px; }
+  @media (max-width: 640px) {
+    /* line 54, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-label {
+      font-size: 16px;
+      line-height: 1.25; } }
+
+/* line 59, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-label-bold {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  margin-bottom: 0; }
+  @media (max-width: 640px) {
+    /* line 59, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-label-bold {
+      font-size: 18px;
+      line-height: 1.2; } }
+  /* line 62, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+  .form-label-bold .form-hint {
+    font-family: "nta", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.31579;
+    font-weight: 400;
+    text-transform: none; }
+    @media (max-width: 640px) {
+      /* line 62, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+      .form-label-bold .form-hint {
+        font-size: 16px;
+        line-height: 1.25; } }
+
+/* line 68, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-block {
+  float: left;
+  width: 100%; }
+
+/* line 78, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-hint {
+  display: block;
+  color: #6f777b;
+  margin-bottom: 5px; }
+  @media (min-width: 641px) {
+    /* line 78, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-hint {
+      margin-top: 8px; } }
+
+/* line 92, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-control {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #bfc1c3;
+  -webkit-appearance: none;
+  border-radius: 0; }
+  @media (max-width: 640px) {
+    /* line 92, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-control {
+      font-size: 16px;
+      line-height: 1.25; } }
+  @media (min-width: 641px) {
+    /* line 92, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-control {
+      width: 50%; } }
+
+/* line 112, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-control-3-4 {
+  width: 100%; }
+  @media (min-width: 641px) {
+    /* line 112, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-control-3-4 {
+      width: 75%; } }
+
+/* line 119, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-control-1-2 {
+  width: 100%; }
+  @media (min-width: 641px) {
+    /* line 119, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+    .form-control-1-2 {
+      width: 50%; } }
+
+/* line 126, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-control-1-4 {
+  width: 25%; }
+
+/* line 130, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-control-1-8 {
+  width: 12.5%; }
+
+/* line 136, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-radio {
+  display: block;
+  margin: 10px 0; }
+
+/* line 140, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-radio input {
+  vertical-align: middle;
+  margin: -4px 5px 0 0; }
+
+/* line 147, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-checkbox {
+  display: block;
+  margin: 15px 0; }
+
+/* line 151, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+.form-checkbox input {
+  vertical-align: middle;
+  margin: -2px 5px 0 0; }
+
+@media (max-width: 640px) {
+  /* line 157, ../../../app/sass/libs/gov_elements/elements/_forms.scss */
+  .form .button {
+    width: 100%; } }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 8, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary {
+  border: 3px solid #af1324;
+  padding: 15px 30px;
+  margin-bottom: 30px; }
+
+/* line 18, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary ul {
+  margin-top: 10px; }
+
+/* line 22, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary li,
+.validation-summary p {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none; }
+  @media (max-width: 640px) {
+    /* line 22, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+    .validation-summary li,
+    .validation-summary p {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+/* line 27, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary p {
+  margin-top: 15px;
+  margin-bottom: 5px; }
+
+/* line 32, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary a {
+  color: #af1324; }
+
+/* line 39, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-summary .heading-small {
+  margin-top: 15px; }
+
+/* line 64, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+.validation-message {
+  display: block;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  color: #af1324; }
+  @media (max-width: 640px) {
+    /* line 64, ../../../app/sass/libs/gov_elements/elements/forms/_form-validation.scss */
+    .validation-message {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+/* line 5, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* line 10, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+input[type=number] {
+  -moz-appearance: textfield; }
+
+/* line 16, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+.form-date .form-group {
+  float: left;
+  width: 50px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  clear: none; }
+  /* line 24, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+  .form-date .form-group label {
+    display: block;
+    margin-bottom: 5px; }
+  /* line 29, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+  .form-date .form-group input {
+    width: 100%; }
+/* line 35, ../../../app/sass/libs/gov_elements/elements/forms/_form-date.scss */
+.form-date .form-group-year {
+  width: 70px; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 9, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+.block-label {
+  display: block;
+  float: none;
+  clear: left;
+  position: relative;
+  background: #dee0e2;
+  border: 1px solid #dee0e2;
+  padding: 18px 30px 15px 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer; }
+  @media (min-width: 641px) {
+    /* line 9, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+    .block-label {
+      float: left;
+      margin-top: 5px;
+      margin-bottom: 5px; } }
+  /* line 32, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+  .block-label input {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    cursor: pointer; }
+  /* line 40, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+  .block-label:hover {
+    border-color: #0b0c0c; }
+
+/* line 46, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+.inline .block-label {
+  clear: none;
+  margin-right: 15px; }
+
+/* line 54, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+.js-enabled label.selected {
+  background: #fff;
+  border-color: #0b0c0c; }
+
+/* line 60, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+.js-enabled label.focused {
+  outline: 3px solid #ffbf47; }
+
+/* line 65, ../../../app/sass/libs/gov_elements/elements/forms/_form-block-labels.scss */
+.js-enabled .focused input:focus {
+  outline: none; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 8, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%; }
+
+/* line 14, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+table th,
+table td {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  padding: 0.75em 1.25em 0.5625em 0;
+  text-align: left;
+  color: #0b0c0c;
+  border-bottom: 1px solid #bfc1c3; }
+  @media (max-width: 640px) {
+    /* line 14, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+    table th,
+    table td {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+/* line 24, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+table th {
+  font-weight: 700; }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+table th.numeric {
+  text-align: right; }
+
+/* line 34, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+table td.numeric {
+  font-family: "ntatabularnumbers", "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  text-align: right; }
+  @media (max-width: 640px) {
+    /* line 34, ../../../app/sass/libs/gov_elements/elements/_tables.scss */
+    table td.numeric {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 8, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button {
+  background-color: #00823b;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding: 0.3em 0.6em 0.2em 0.6em;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 2px 0 #003518;
+  -moz-box-shadow: 0 2px 0 #003518;
+  box-shadow: 0 2px 0 #003518;
+  font-size: 1em;
+  line-height: 1.25;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 15px 15px 0;
+  padding: 0.52632em 0.78947em 0.26316em 0.78947em;
+  vertical-align: top; }
+  /* line 49, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:visited {
+    background-color: #00823b; }
+  /* line 52, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:hover, .button:focus {
+    background-color: #00692f; }
+  /* line 56, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:active {
+    top: 2px;
+    -webkit-box-shadow: 0 0 0 #00823b;
+    -moz-box-shadow: 0 0 0 #00823b;
+    box-shadow: 0 0 0 #00823b; }
+  /* line 62, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button.disabled, .button[disabled="disabled"], .button[disabled] {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5; }
+    /* line 66, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+    .button.disabled:hover, .button[disabled="disabled"]:hover, .button[disabled]:hover {
+      cursor: default;
+      background-color: #00823b; }
+    /* line 70, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+    .button.disabled:active, .button[disabled="disabled"]:active, .button[disabled]:active {
+      top: 0;
+      -webkit-box-shadow: 0 2px 0 #003518;
+      -moz-box-shadow: 0 2px 0 #003518;
+      box-shadow: 0 2px 0 #003518; }
+  /* line 82, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:link, .button:hover, .button:focus, .button:visited {
+    color: #fff; }
+  /* line 100, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:before {
+    content: "";
+    height: 110%;
+    width: 100%;
+    display: block;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  /* line 110, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button:active:before {
+    top: -10%;
+    height: 120%; }
+  /* line 123, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/design-patterns/_buttons.scss */
+  .button[rel="external"]:after {
+    display: none;
+    content: none;
+    margin-left: 0;
+    margin-right: 0; }
+
+/* line 16, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 21, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button:focus {
+  outline: 3px solid #ffbf47; }
+
+/* line 26, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button[disabled="disabled"] {
+  background: #00823b; }
+
+/* line 30, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button[disabled="disabled"]:focus {
+  outline: none; }
+
+/* line 35, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+.button-get-started {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
+  background-image: image-url("icons/icon-pointer.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding: 0.36842em 2.15789em 0.21053em 0.84211em; }
+  @media (max-width: 640px) {
+    /* line 35, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+    .button-get-started {
+      font-size: 18px;
+      line-height: 1.2; } }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 35, ../../../app/sass/libs/gov_elements/elements/_buttons.scss */
+    .button-get-started {
+      background-image: image-url("icons/icon-pointer-2x.png");
+      background-size: 30px 19px; } }
+
+/* line 6, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details {
+  display: block; }
+
+/* line 10, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details summary {
+  display: inline-block;
+  color: #005ea5;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 0.26316em; }
+
+/* line 18, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details summary:hover {
+  color: #2e8aca; }
+
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details summary:focus {
+  outline: 3px solid #ffbf47; }
+
+/* line 27, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details .summary {
+  text-decoration: underline; }
+
+/* line 32, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details .arrow {
+  margin-right: 0.35em;
+  font-style: normal; }
+
+/* line 38, ../../../app/sass/libs/gov_elements/elements/_details.scss */
+details .panel-indent {
+  margin-top: 0; }
+
+/* line 4, ../../../app/sass/libs/gov_elements/elements/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  padding: 0; }
+
+/* line 11, ../../../app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet, .form-hint ul {
+  list-style-type: disc;
+  padding-left: 20px; }
+
+/* line 17, ../../../app/sass/libs/gov_elements/elements/_lists.scss */
+.list-number {
+  list-style-type: decimal;
+  padding-left: 20px; }
+
+/* line 25, ../../../app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet, .form-hint ul,
+.list-number {
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+/* line 31, ../../../app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet li, .form-hint ul li,
+.list-number li {
+  margin-bottom: 5px; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 46, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_uk_frontend_toolkit/npm/_shims.scss */
+.grid-row:after, #content:after, fieldset:after, .form-group:after, .form-block:after, .panel-indent:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 19, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .grid-row {
+  background: #bfc1c3; }
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-highlight-grid .column-highlight {
+  background: #dee0e2;
+  width: 100%; }
+
+/* line 29, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.example-back-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  margin-top: 30px; }
+
+/* line 35, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+/* line 44, ../../../app/sass/libs/gov_elements/elements/_helpers.scss */
+.js-enabled .js-hidden {
+  display: none; }
+
+/* line 8, ../../../app/sass/libs/gov_elements/elements/_panels.scss */
+.panel-indent {
+  clear: both;
+  border-left: 4px solid #bfc1c3;
+  padding: 10px 0 10px 15px;
+  margin: 30px 15px 45px 0; }
+
+/* line 17, ../../../app/sass/libs/gov_elements/elements/_panels.scss */
+.panel-indent legend {
+  margin-top: 0; }
+
+/* line 22, ../../../app/sass/libs/gov_elements/elements/_panels.scss */
+.panel-indent p:only-child,
+.panel-indent p:last-child {
+  margin-bottom: 0; }
+
+/* line 27, ../../../app/sass/libs/gov_elements/elements/_panels.scss */
+.panel-indent .form-group:last-child {
+  margin-bottom: 0; }
+
+/* line 5, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon {
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+
+/* line 10, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-calendar {
+  background-image: image-url("icons/icon-calendar.png");
+  width: 27px;
+  height: 27px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 10, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-calendar {
+      background-image: image-url("icons/icon-calendar-2x.png");
+      background-size: 100%; } }
+
+/* line 20, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-download {
+  background-image: image-url("icons/icon-file-download.png");
+  width: 30px;
+  height: 39px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 20, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-download {
+      background-image: image-url("icons/icon-file-download-2x.png");
+      background-size: 100%; } }
+
+/* line 30, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-important {
+  background-image: image-url("icons/icon-important.png");
+  width: 34px;
+  height: 34px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 30, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-important {
+      background-image: image-url("icons/icon-important-2x.png");
+      background-size: 100%; } }
+
+/* line 40, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-information {
+  background-image: image-url("icons/icon-information.png");
+  width: 27px;
+  height: 27px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 40, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-information {
+      background-image: image-url("icons/icon-information-2x.png");
+      background-size: 100%; } }
+
+/* line 50, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-locator {
+  background-image: image-url("icons/icon-locator.png");
+  width: 26px;
+  height: 36px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 50, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-locator {
+      background-image: image-url("icons/icon-locator-2x.png");
+      background-size: 100%; } }
+
+/* line 60, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-search {
+  background-image: image-url("icons/icon-search.png");
+  width: 30px;
+  height: 22px;
+  background-color: black; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 60, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-search {
+      background-image: image-url("icons/icon-search-2x.png");
+      background-size: 100%; } }
+
+/* line 72, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-pointer {
+  background-image: image-url("icons/icon-pointer.png");
+  width: 30px;
+  height: 19px;
+  background-color: black; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 72, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-pointer {
+      background-image: image-url("icons/icon-pointer-2x.png");
+      background-size: 100%; } }
+
+/* line 82, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-pointer-black {
+  background-image: image-url("icons/icon-pointer-black.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 82, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-pointer-black {
+      background-image: image-url("icons/icon-pointer-black-2x.png");
+      background-size: 100%; } }
+
+/* line 96, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-1 {
+  background-image: image-url("icons/icon-steps/icon-step-1.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 96, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-1 {
+      background-image: image-url("icons/icon-steps/icon-step-1-2x.png");
+      background-size: 100%; } }
+
+/* line 106, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-2 {
+  background-image: image-url("icons/icon-steps/icon-step-2.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 106, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-2 {
+      background-image: image-url("icons/icon-steps/icon-step-2-2x.png");
+      background-size: 100%; } }
+
+/* line 116, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-3 {
+  background-image: image-url("icons/icon-steps/icon-step-3.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 116, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-3 {
+      background-image: image-url("icons/icon-steps/icon-step-3-2x.png");
+      background-size: 100%; } }
+
+/* line 126, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-4 {
+  background-image: image-url("icons/icon-steps/icon-step-4.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 126, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-4 {
+      background-image: image-url("icons/icon-steps/icon-step-4-2x.png");
+      background-size: 100%; } }
+
+/* line 136, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-5 {
+  background-image: image-url("icons/icon-steps/icon-step-5.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 136, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-5 {
+      background-image: image-url("icons/icon-steps/icon-step-5-2x.png");
+      background-size: 100%; } }
+
+/* line 146, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-6 {
+  background-image: image-url("icons/icon-steps/icon-step-6.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 146, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-6 {
+      background-image: image-url("icons/icon-steps/icon-step-6-2x.png");
+      background-size: 100%; } }
+
+/* line 156, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-7 {
+  background-image: image-url("icons/icon-steps/icon-step-7.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 156, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-7 {
+      background-image: image-url("icons/icon-steps/icon-step-7-2x.png");
+      background-size: 100%; } }
+
+/* line 166, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-8 {
+  background-image: image-url("icons/icon-steps/icon-step-8.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 166, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-8 {
+      background-image: image-url("icons/icon-steps/icon-step-8-2x.png");
+      background-size: 100%; } }
+
+/* line 176, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-9 {
+  background-image: image-url("icons/icon-steps/icon-step-9.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 176, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-9 {
+      background-image: image-url("icons/icon-steps/icon-step-9-2x.png");
+      background-size: 100%; } }
+
+/* line 186, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-10 {
+  background-image: image-url("icons/icon-steps/icon-step-10.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 186, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-10 {
+      background-image: image-url("icons/icon-steps/icon-step-10-2x.png");
+      background-size: 100%; } }
+
+/* line 196, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-11 {
+  background-image: image-url("icons/icon-steps/icon-step-11.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 196, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-11 {
+      background-image: image-url("icons/icon-steps/icon-step-11-2x.png");
+      background-size: 100%; } }
+
+/* line 206, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-12 {
+  background-image: image-url("icons/icon-steps/icon-step-12.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 206, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-12 {
+      background-image: image-url("icons/icon-steps/icon-step-12-2x.png");
+      background-size: 100%; } }
+
+/* line 216, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+.icon-step-13 {
+  background-image: image-url("icons/icon-steps/icon-step-13.png");
+  width: 23px;
+  height: 23px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* line 216, ../../../app/sass/libs/gov_elements/elements/_icons.scss */
+    .icon-step-13 {
+      background-image: image-url("icons/icon-steps/icon-step-13-2x.png");
+      background-size: 100%; } }
+
+/*! jQuery UI - v1.11.4 - 2015-03-11
+* http://jqueryui.com
+* Includes: core.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, draggable.css, menu.css, progressbar.css, resizable.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+/* Layout helpers
+----------------------------------*/
+/* line 9, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-hidden {
+  display: none; }
+
+/* line 12, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 22, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none; }
+
+/* line 32, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse; }
+
+/* line 38, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-clearfix:after {
+  clear: both; }
+
+/* line 41, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */ }
+
+/* line 44, ../../../app/sass/libs/jquery-ui.scss */
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+  /* support: IE8 */ }
+
+/* line 54, ../../../app/sass/libs/jquery-ui.scss */
+.ui-front {
+  z-index: 100; }
+
+/* Interaction Cues
+----------------------------------*/
+/* line 61, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-disabled {
+  cursor: default !important; }
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 70, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat; }
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+/* line 82, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 89, ../../../app/sass/libs/jquery-ui.scss */
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  min-height: 0;
+  /* support: IE7 */
+  font-size: 100%; }
+
+/* line 98, ../../../app/sass/libs/jquery-ui.scss */
+.ui-accordion .ui-accordion-icons {
+  padding-left: 2.2em; }
+
+/* line 101, ../../../app/sass/libs/jquery-ui.scss */
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 2.2em; }
+
+/* line 104, ../../../app/sass/libs/jquery-ui.scss */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px; }
+
+/* line 110, ../../../app/sass/libs/jquery-ui.scss */
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto; }
+
+/* line 115, ../../../app/sass/libs/jquery-ui.scss */
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default; }
+
+/* line 121, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin-right: .1em;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+  /* removes extra width in IE */ }
+
+/* line 132, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+  text-decoration: none; }
+
+/* to make room for the icon, a width needs to be set here */
+/* line 140, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-icon-only {
+  width: 2.2em; }
+
+/* button elements seem to need a little more width */
+/* line 144, ../../../app/sass/libs/jquery-ui.scss */
+button.ui-button-icon-only {
+  width: 2.4em; }
+
+/* line 147, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-icons-only {
+  width: 3.4em; }
+
+/* line 150, ../../../app/sass/libs/jquery-ui.scss */
+button.ui-button-icons-only {
+  width: 3.7em; }
+
+/* button text element */
+/* line 155, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button .ui-button-text {
+  display: block;
+  line-height: normal; }
+
+/* line 159, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-only .ui-button-text {
+  padding: .4em 1em; }
+
+/* line 162, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
+  padding: .4em;
+  text-indent: -9999999px; }
+
+/* line 167, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-icon-primary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 1em .4em 2.1em; }
+
+/* line 171, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-icon-secondary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 2.1em .4em 1em; }
+
+/* line 175, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-icons .ui-button-text {
+  padding-left: 2.1em;
+  padding-right: 2.1em; }
+
+/* no icon support for input elements, provide padding by default */
+/* line 180, ../../../app/sass/libs/jquery-ui.scss */
+input.ui-button {
+  padding: .4em 1em; }
+
+/* button icon element(s) */
+/* line 185, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px; }
+
+/* line 194, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-icon-only .ui-icon {
+  left: 50%;
+  margin-left: -8px; }
+
+/* line 198, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+  left: .5em; }
+
+/* line 203, ../../../app/sass/libs/jquery-ui.scss */
+.ui-button-text-icon-secondary .ui-button-icon-secondary,
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+  right: .5em; }
+
+/* button sets */
+/* line 210, ../../../app/sass/libs/jquery-ui.scss */
+.ui-buttonset {
+  margin-right: 7px; }
+
+/* line 213, ../../../app/sass/libs/jquery-ui.scss */
+.ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: -.3em; }
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+/* line 220, ../../../app/sass/libs/jquery-ui.scss */
+input.ui-button::-moz-focus-inner,
+button.ui-button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 225, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none; }
+
+/* line 230, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0; }
+
+/* line 234, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em; }
+
+/* line 241, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px; }
+
+/* line 245, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px; }
+
+/* line 248, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-next {
+  right: 2px; }
+
+/* line 251, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px; }
+
+/* line 254, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px; }
+
+/* line 257, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px; }
+
+/* line 266, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center; }
+
+/* line 271, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0; }
+
+/* line 275, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 45%; }
+
+/* line 279, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em; }
+
+/* line 285, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0; }
+
+/* line 291, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker td {
+  border: 0;
+  padding: 1px; }
+
+/* line 295, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none; }
+
+/* line 302, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0; }
+
+/* line 310, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible; }
+
+/* line 318, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left; }
+
+/* with multiple calendars */
+/* line 323, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker.ui-datepicker-multi {
+  width: auto; }
+
+/* line 326, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left; }
+
+/* line 329, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em; }
+
+/* line 333, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%; }
+
+/* line 336, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%; }
+
+/* line 339, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%; }
+
+/* line 342, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0; }
+
+/* line 346, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left; }
+
+/* line 349, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0; }
+
+/* RTL support */
+/* line 356, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl {
+  direction: rtl; }
+
+/* line 359, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto; }
+
+/* line 363, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto; }
+
+/* line 367, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto; }
+
+/* line 371, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto; }
+
+/* line 375, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right; }
+
+/* line 378, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left; }
+
+/* line 381, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right; }
+
+/* line 385, ../../../app/sass/libs/jquery-ui.scss */
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px; }
+
+/* line 390, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2em;
+  outline: 0; }
+
+/* line 398, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-titlebar {
+  padding: .4em 1em;
+  position: relative; }
+
+/* line 402, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin: .1em 0;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/* line 410, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: .3em;
+  top: 50%;
+  width: 20px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 20px; }
+
+/* line 419, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-content {
+  position: relative;
+  border: 0;
+  padding: .5em 1em;
+  background: none;
+  overflow: auto; }
+
+/* line 426, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-buttonpane {
+  text-align: left;
+  border-width: 1px 0 0 0;
+  background-image: none;
+  margin-top: .5em;
+  padding: .3em 1em .5em .4em; }
+
+/* line 433, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: right; }
+
+/* line 436, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: .5em .4em .5em 0;
+  cursor: pointer; }
+
+/* line 440, ../../../app/sass/libs/jquery-ui.scss */
+.ui-dialog .ui-resizable-se {
+  width: 12px;
+  height: 12px;
+  right: -5px;
+  bottom: -5px;
+  background-position: 16px 16px; }
+
+/* line 447, ../../../app/sass/libs/jquery-ui.scss */
+.ui-draggable .ui-dialog-titlebar {
+  cursor: move; }
+
+/* line 450, ../../../app/sass/libs/jquery-ui.scss */
+.ui-draggable-handle {
+  -ms-touch-action: none;
+  touch-action: none; }
+
+/* line 454, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  outline: none; }
+
+/* line 461, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-menu {
+  position: absolute; }
+
+/* line 464, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-menu-item {
+  position: relative;
+  margin: 0;
+  padding: 3px 1em 3px .4em;
+  cursor: pointer;
+  min-height: 0;
+  /* support: IE7 */
+  /* support: IE10, see #8844 */
+  list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"); }
+
+/* line 473, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-menu-divider {
+  margin: 5px 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-width: 1px 0 0 0; }
+
+/* line 480, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-state-focus,
+.ui-menu .ui-state-active {
+  margin: -1px; }
+
+/* icon support */
+/* line 486, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu-icons {
+  position: relative; }
+
+/* line 489, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu-icons .ui-menu-item {
+  padding-left: 2em; }
+
+/* left-aligned */
+/* line 494, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: .2em;
+  margin: auto 0; }
+
+/* right-aligned */
+/* line 503, ../../../app/sass/libs/jquery-ui.scss */
+.ui-menu .ui-menu-icon {
+  left: auto;
+  right: 0; }
+
+/* line 507, ../../../app/sass/libs/jquery-ui.scss */
+.ui-progressbar {
+  height: 2em;
+  text-align: left;
+  overflow: hidden; }
+
+/* line 512, ../../../app/sass/libs/jquery-ui.scss */
+.ui-progressbar .ui-progressbar-value {
+  margin: -1px;
+  height: 100%; }
+
+/* line 516, ../../../app/sass/libs/jquery-ui.scss */
+.ui-progressbar .ui-progressbar-overlay {
+  background: url("data:image/gif;base64,R0lGODlhKAAoAIABAAAAAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAQABACwAAAAAKAAoAAACkYwNqXrdC52DS06a7MFZI+4FHBCKoDeWKXqymPqGqxvJrXZbMx7Ttc+w9XgU2FB3lOyQRWET2IFGiU9m1frDVpxZZc6bfHwv4c1YXP6k1Vdy292Fb6UkuvFtXpvWSzA+HycXJHUXiGYIiMg2R6W459gnWGfHNdjIqDWVqemH2ekpObkpOlppWUqZiqr6edqqWQAAIfkECQEAAQAsAAAAACgAKAAAApSMgZnGfaqcg1E2uuzDmmHUBR8Qil95hiPKqWn3aqtLsS18y7G1SzNeowWBENtQd+T1JktP05nzPTdJZlR6vUxNWWjV+vUWhWNkWFwxl9VpZRedYcflIOLafaa28XdsH/ynlcc1uPVDZxQIR0K25+cICCmoqCe5mGhZOfeYSUh5yJcJyrkZWWpaR8doJ2o4NYq62lAAACH5BAkBAAEALAAAAAAoACgAAAKVDI4Yy22ZnINRNqosw0Bv7i1gyHUkFj7oSaWlu3ovC8GxNso5fluz3qLVhBVeT/Lz7ZTHyxL5dDalQWPVOsQWtRnuwXaFTj9jVVh8pma9JjZ4zYSj5ZOyma7uuolffh+IR5aW97cHuBUXKGKXlKjn+DiHWMcYJah4N0lYCMlJOXipGRr5qdgoSTrqWSq6WFl2ypoaUAAAIfkECQEAAQAsAAAAACgAKAAAApaEb6HLgd/iO7FNWtcFWe+ufODGjRfoiJ2akShbueb0wtI50zm02pbvwfWEMWBQ1zKGlLIhskiEPm9R6vRXxV4ZzWT2yHOGpWMyorblKlNp8HmHEb/lCXjcW7bmtXP8Xt229OVWR1fod2eWqNfHuMjXCPkIGNileOiImVmCOEmoSfn3yXlJWmoHGhqp6ilYuWYpmTqKUgAAIfkECQEAAQAsAAAAACgAKAAAApiEH6kb58biQ3FNWtMFWW3eNVcojuFGfqnZqSebuS06w5V80/X02pKe8zFwP6EFWOT1lDFk8rGERh1TTNOocQ61Hm4Xm2VexUHpzjymViHrFbiELsefVrn6XKfnt2Q9G/+Xdie499XHd2g4h7ioOGhXGJboGAnXSBnoBwKYyfioubZJ2Hn0RuRZaflZOil56Zp6iioKSXpUAAAh+QQJAQABACwAAAAAKAAoAAACkoQRqRvnxuI7kU1a1UU5bd5tnSeOZXhmn5lWK3qNTWvRdQxP8qvaC+/yaYQzXO7BMvaUEmJRd3TsiMAgswmNYrSgZdYrTX6tSHGZO73ezuAw2uxuQ+BbeZfMxsexY35+/Qe4J1inV0g4x3WHuMhIl2jXOKT2Q+VU5fgoSUI52VfZyfkJGkha6jmY+aaYdirq+lQAACH5BAkBAAEALAAAAAAoACgAAAKWBIKpYe0L3YNKToqswUlvznigd4wiR4KhZrKt9Upqip61i9E3vMvxRdHlbEFiEXfk9YARYxOZZD6VQ2pUunBmtRXo1Lf8hMVVcNl8JafV38aM2/Fu5V16Bn63r6xt97j09+MXSFi4BniGFae3hzbH9+hYBzkpuUh5aZmHuanZOZgIuvbGiNeomCnaxxap2upaCZsq+1kAACH5BAkBAAEALAAAAAAoACgAAAKXjI8By5zf4kOxTVrXNVlv1X0d8IGZGKLnNpYtm8Lr9cqVeuOSvfOW79D9aDHizNhDJidFZhNydEahOaDH6nomtJjp1tutKoNWkvA6JqfRVLHU/QUfau9l2x7G54d1fl995xcIGAdXqMfBNadoYrhH+Mg2KBlpVpbluCiXmMnZ2Sh4GBqJ+ckIOqqJ6LmKSllZmsoq6wpQAAAh+QQJAQABACwAAAAAKAAoAAAClYx/oLvoxuJDkU1a1YUZbJ59nSd2ZXhWqbRa2/gF8Gu2DY3iqs7yrq+xBYEkYvFSM8aSSObE+ZgRl1BHFZNr7pRCavZ5BW2142hY3AN/zWtsmf12p9XxxFl2lpLn1rseztfXZjdIWIf2s5dItwjYKBgo9yg5pHgzJXTEeGlZuenpyPmpGQoKOWkYmSpaSnqKileI2FAAACH5BAkBAAEALAAAAAAoACgAAAKVjB+gu+jG4kORTVrVhRlsnn2dJ3ZleFaptFrb+CXmO9OozeL5VfP99HvAWhpiUdcwkpBH3825AwYdU8xTqlLGhtCosArKMpvfa1mMRae9VvWZfeB2XfPkeLmm18lUcBj+p5dnN8jXZ3YIGEhYuOUn45aoCDkp16hl5IjYJvjWKcnoGQpqyPlpOhr3aElaqrq56Bq7VAAAOw==");
+  height: 100%;
+  filter: alpha(opacity=25);
+  /* support: IE8 */
+  opacity: 0.25; }
+
+/* line 522, ../../../app/sass/libs/jquery-ui.scss */
+.ui-progressbar-indeterminate .ui-progressbar-value {
+  background-image: none; }
+
+/* line 525, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable {
+  position: relative; }
+
+/* line 528, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  -ms-touch-action: none;
+  touch-action: none; }
+
+/* line 535, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+  display: none; }
+
+/* line 539, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-n {
+  cursor: n-resize;
+  height: 7px;
+  width: 100%;
+  top: -5px;
+  left: 0; }
+
+/* line 546, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-s {
+  cursor: s-resize;
+  height: 7px;
+  width: 100%;
+  bottom: -5px;
+  left: 0; }
+
+/* line 553, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%; }
+
+/* line 560, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-w {
+  cursor: w-resize;
+  width: 7px;
+  left: -5px;
+  top: 0;
+  height: 100%; }
+
+/* line 567, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-se {
+  cursor: se-resize;
+  width: 12px;
+  height: 12px;
+  right: 1px;
+  bottom: 1px; }
+
+/* line 574, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-sw {
+  cursor: sw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  bottom: -5px; }
+
+/* line 581, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-nw {
+  cursor: nw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  top: -5px; }
+
+/* line 588, ../../../app/sass/libs/jquery-ui.scss */
+.ui-resizable-ne {
+  cursor: ne-resize;
+  width: 9px;
+  height: 9px;
+  right: -5px;
+  top: -5px; }
+
+/* line 595, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectable {
+  -ms-touch-action: none;
+  touch-action: none; }
+
+/* line 599, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black; }
+
+/* line 604, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-menu {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+
+/* line 612, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  /* Support: IE7 */
+  overflow-x: hidden;
+  padding-bottom: 1px; }
+
+/* line 618, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 2px 0.4em;
+  margin: 0.5em 0 0 0;
+  height: auto;
+  border: 0; }
+
+/* line 627, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-open {
+  display: block; }
+
+/* line 630, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-button {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 637, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-button span.ui-icon {
+  right: 0.5em;
+  left: auto;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%; }
+
+/* line 644, ../../../app/sass/libs/jquery-ui.scss */
+.ui-selectmenu-button span.ui-selectmenu-text {
+  text-align: left;
+  padding: 0.4em 2.1em 0.4em 1em;
+  display: block;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/* line 653, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider {
+  position: relative;
+  text-align: left; }
+
+/* line 657, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: default;
+  -ms-touch-action: none;
+  touch-action: none; }
+
+/* line 666, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0; }
+
+/* support: IE8 - See #6727 */
+/* line 676, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+  filter: inherit; }
+
+/* line 681, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-horizontal {
+  height: .8em; }
+
+/* line 684, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.3em;
+  margin-left: -.6em; }
+
+/* line 688, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%; }
+
+/* line 692, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-horizontal .ui-slider-range-min {
+  left: 0; }
+
+/* line 695, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-horizontal .ui-slider-range-max {
+  right: 0; }
+
+/* line 699, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-vertical {
+  width: .8em;
+  height: 100px; }
+
+/* line 703, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-vertical .ui-slider-handle {
+  left: -.3em;
+  margin-left: 0;
+  margin-bottom: -.6em; }
+
+/* line 708, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 100%; }
+
+/* line 712, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-vertical .ui-slider-range-min {
+  bottom: 0; }
+
+/* line 715, ../../../app/sass/libs/jquery-ui.scss */
+.ui-slider-vertical .ui-slider-range-max {
+  top: 0; }
+
+/* line 718, ../../../app/sass/libs/jquery-ui.scss */
+.ui-sortable-handle {
+  -ms-touch-action: none;
+  touch-action: none; }
+
+/* line 722, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: middle; }
+
+/* line 729, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner-input {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  margin: .2em 0;
+  vertical-align: middle;
+  margin-left: .4em;
+  margin-right: 22px; }
+
+/* line 739, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner-button {
+  width: 16px;
+  height: 50%;
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  cursor: default;
+  display: block;
+  overflow: hidden;
+  right: 0; }
+
+/* more specificity required here to override default borders */
+/* line 753, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner a.ui-spinner-button {
+  border-top: none;
+  border-bottom: none;
+  border-right: none; }
+
+/* vertically center icon */
+/* line 759, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner .ui-icon {
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+  left: 0; }
+
+/* line 765, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner-up {
+  top: 0; }
+
+/* line 768, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner-down {
+  bottom: 0; }
+
+/* TR overrides */
+/* line 773, ../../../app/sass/libs/jquery-ui.scss */
+.ui-spinner .ui-icon-triangle-1-s {
+  /* need to fix icons sprite */
+  background-position: -65px -16px; }
+
+/* line 777, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs {
+  position: relative;
+  /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+  padding: .2em; }
+
+/* line 781, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-nav {
+  margin: 0;
+  padding: .2em .2em 0; }
+
+/* line 785, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 0;
+  margin: 1px .2em 0 0;
+  border-bottom-width: 0;
+  padding: 0;
+  white-space: nowrap; }
+
+/* line 795, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: left;
+  padding: .5em 1em;
+  text-decoration: none; }
+
+/* line 800, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  margin-bottom: -1px;
+  padding-bottom: 1px; }
+
+/* line 804, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+  cursor: text; }
+
+/* line 809, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  cursor: pointer; }
+
+/* line 812, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tabs .ui-tabs-panel {
+  display: block;
+  border-width: 0;
+  padding: 1em 1.4em;
+  background: none; }
+
+/* line 818, ../../../app/sass/libs/jquery-ui.scss */
+.ui-tooltip {
+  padding: 8px;
+  position: absolute;
+  z-index: 9999;
+  max-width: 300px;
+  -webkit-box-shadow: 0 0 5px #aaa;
+  box-shadow: 0 0 5px #aaa; }
+
+/* line 826, ../../../app/sass/libs/jquery-ui.scss */
+body .ui-tooltip {
+  border-width: 2px; }
+
+/* Component containers
+----------------------------------*/
+/* line 832, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1.1em; }
+
+/* line 836, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget .ui-widget {
+  font-size: 1em; }
+
+/* line 839, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1em; }
+
+/* line 846, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
+  color: #222222; }
+
+/* line 851, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-content a {
+  color: #222222; }
+
+/* line 854, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
+  color: #222222;
+  font-weight: bold; }
+
+/* line 860, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-header a {
+  color: #222222; }
+
+/* Interaction states
+----------------------------------*/
+/* line 866, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #d3d3d3;
+  background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+  font-weight: normal;
+  color: #555555; }
+
+/* line 874, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+  color: #555555;
+  text-decoration: none; }
+
+/* line 880, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #999999;
+  background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121; }
+
+/* line 891, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+  color: #212121;
+  text-decoration: none; }
+
+/* line 902, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: 1px solid #aaaaaa;
+  background: #ffffff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121; }
+
+/* line 910, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+  color: #212121;
+  text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+/* line 919, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  border: 1px solid #fcefa1;
+  background: #fbf9ee url("images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
+  color: #363636; }
+
+/* line 926, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+  color: #363636; }
+
+/* line 931, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+  border: 1px solid #cd0a0a;
+  background: #fef1ec url("images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
+  color: #cd0a0a; }
+
+/* line 938, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+  color: #cd0a0a; }
+
+/* line 943, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+  color: #cd0a0a; }
+
+/* line 948, ../../../app/sass/libs/jquery-ui.scss */
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+  font-weight: bold; }
+
+/* line 953, ../../../app/sass/libs/jquery-ui.scss */
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+  opacity: .7;
+  filter: Alpha(Opacity=70);
+  /* support: IE8 */
+  font-weight: normal; }
+
+/* line 960, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  /* support: IE8 */
+  background-image: none; }
+
+/* line 967, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-disabled .ui-icon {
+  filter: Alpha(Opacity=35);
+  /* support: IE8 - See #6059 */ }
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 975, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon {
+  width: 16px;
+  height: 16px; }
+
+/* line 979, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon,
+.ui-widget-content .ui-icon {
+  background-image: url("images/ui-icons_222222_256x240.png"); }
+
+/* line 983, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-header .ui-icon {
+  background-image: url("images/ui-icons_222222_256x240.png"); }
+
+/* line 986, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-default .ui-icon {
+  background-image: url("images/ui-icons_888888_256x240.png"); }
+
+/* line 989, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+  background-image: url("images/ui-icons_454545_256x240.png"); }
+
+/* line 993, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-active .ui-icon {
+  background-image: url("images/ui-icons_454545_256x240.png"); }
+
+/* line 996, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-highlight .ui-icon {
+  background-image: url("images/ui-icons_2e83ff_256x240.png"); }
+
+/* line 999, ../../../app/sass/libs/jquery-ui.scss */
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+  background-image: url("images/ui-icons_cd0a0a_256x240.png"); }
+
+/* positioning */
+/* line 1005, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-blank {
+  background-position: 16px 16px; }
+
+/* line 1006, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-n {
+  background-position: 0 0; }
+
+/* line 1007, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-ne {
+  background-position: -16px 0; }
+
+/* line 1008, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-e {
+  background-position: -32px 0; }
+
+/* line 1009, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-se {
+  background-position: -48px 0; }
+
+/* line 1010, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-s {
+  background-position: -64px 0; }
+
+/* line 1011, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-sw {
+  background-position: -80px 0; }
+
+/* line 1012, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-w {
+  background-position: -96px 0; }
+
+/* line 1013, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-1-nw {
+  background-position: -112px 0; }
+
+/* line 1014, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-2-n-s {
+  background-position: -128px 0; }
+
+/* line 1015, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-carat-2-e-w {
+  background-position: -144px 0; }
+
+/* line 1016, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-n {
+  background-position: 0 -16px; }
+
+/* line 1017, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-ne {
+  background-position: -16px -16px; }
+
+/* line 1018, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-e {
+  background-position: -32px -16px; }
+
+/* line 1019, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-se {
+  background-position: -48px -16px; }
+
+/* line 1020, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-s {
+  background-position: -64px -16px; }
+
+/* line 1021, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-sw {
+  background-position: -80px -16px; }
+
+/* line 1022, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-w {
+  background-position: -96px -16px; }
+
+/* line 1023, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-1-nw {
+  background-position: -112px -16px; }
+
+/* line 1024, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-2-n-s {
+  background-position: -128px -16px; }
+
+/* line 1025, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-triangle-2-e-w {
+  background-position: -144px -16px; }
+
+/* line 1026, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-n {
+  background-position: 0 -32px; }
+
+/* line 1027, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-ne {
+  background-position: -16px -32px; }
+
+/* line 1028, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-e {
+  background-position: -32px -32px; }
+
+/* line 1029, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-se {
+  background-position: -48px -32px; }
+
+/* line 1030, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-s {
+  background-position: -64px -32px; }
+
+/* line 1031, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-sw {
+  background-position: -80px -32px; }
+
+/* line 1032, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-w {
+  background-position: -96px -32px; }
+
+/* line 1033, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-1-nw {
+  background-position: -112px -32px; }
+
+/* line 1034, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-2-n-s {
+  background-position: -128px -32px; }
+
+/* line 1035, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-2-ne-sw {
+  background-position: -144px -32px; }
+
+/* line 1036, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-2-e-w {
+  background-position: -160px -32px; }
+
+/* line 1037, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-2-se-nw {
+  background-position: -176px -32px; }
+
+/* line 1038, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowstop-1-n {
+  background-position: -192px -32px; }
+
+/* line 1039, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowstop-1-e {
+  background-position: -208px -32px; }
+
+/* line 1040, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowstop-1-s {
+  background-position: -224px -32px; }
+
+/* line 1041, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowstop-1-w {
+  background-position: -240px -32px; }
+
+/* line 1042, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-n {
+  background-position: 0 -48px; }
+
+/* line 1043, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-ne {
+  background-position: -16px -48px; }
+
+/* line 1044, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-e {
+  background-position: -32px -48px; }
+
+/* line 1045, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-se {
+  background-position: -48px -48px; }
+
+/* line 1046, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-s {
+  background-position: -64px -48px; }
+
+/* line 1047, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-sw {
+  background-position: -80px -48px; }
+
+/* line 1048, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-w {
+  background-position: -96px -48px; }
+
+/* line 1049, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-1-nw {
+  background-position: -112px -48px; }
+
+/* line 1050, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-2-n-s {
+  background-position: -128px -48px; }
+
+/* line 1051, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-2-ne-sw {
+  background-position: -144px -48px; }
+
+/* line 1052, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-2-e-w {
+  background-position: -160px -48px; }
+
+/* line 1053, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthick-2-se-nw {
+  background-position: -176px -48px; }
+
+/* line 1054, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthickstop-1-n {
+  background-position: -192px -48px; }
+
+/* line 1055, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthickstop-1-e {
+  background-position: -208px -48px; }
+
+/* line 1056, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthickstop-1-s {
+  background-position: -224px -48px; }
+
+/* line 1057, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowthickstop-1-w {
+  background-position: -240px -48px; }
+
+/* line 1058, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturnthick-1-w {
+  background-position: 0 -64px; }
+
+/* line 1059, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturnthick-1-n {
+  background-position: -16px -64px; }
+
+/* line 1060, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturnthick-1-e {
+  background-position: -32px -64px; }
+
+/* line 1061, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturnthick-1-s {
+  background-position: -48px -64px; }
+
+/* line 1062, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturn-1-w {
+  background-position: -64px -64px; }
+
+/* line 1063, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturn-1-n {
+  background-position: -80px -64px; }
+
+/* line 1064, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturn-1-e {
+  background-position: -96px -64px; }
+
+/* line 1065, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowreturn-1-s {
+  background-position: -112px -64px; }
+
+/* line 1066, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowrefresh-1-w {
+  background-position: -128px -64px; }
+
+/* line 1067, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowrefresh-1-n {
+  background-position: -144px -64px; }
+
+/* line 1068, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowrefresh-1-e {
+  background-position: -160px -64px; }
+
+/* line 1069, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrowrefresh-1-s {
+  background-position: -176px -64px; }
+
+/* line 1070, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-4 {
+  background-position: 0 -80px; }
+
+/* line 1071, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-arrow-4-diag {
+  background-position: -16px -80px; }
+
+/* line 1072, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-extlink {
+  background-position: -32px -80px; }
+
+/* line 1073, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-newwin {
+  background-position: -48px -80px; }
+
+/* line 1074, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-refresh {
+  background-position: -64px -80px; }
+
+/* line 1075, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-shuffle {
+  background-position: -80px -80px; }
+
+/* line 1076, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-transfer-e-w {
+  background-position: -96px -80px; }
+
+/* line 1077, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-transferthick-e-w {
+  background-position: -112px -80px; }
+
+/* line 1078, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-folder-collapsed {
+  background-position: 0 -96px; }
+
+/* line 1079, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-folder-open {
+  background-position: -16px -96px; }
+
+/* line 1080, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-document {
+  background-position: -32px -96px; }
+
+/* line 1081, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-document-b {
+  background-position: -48px -96px; }
+
+/* line 1082, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-note {
+  background-position: -64px -96px; }
+
+/* line 1083, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-mail-closed {
+  background-position: -80px -96px; }
+
+/* line 1084, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-mail-open {
+  background-position: -96px -96px; }
+
+/* line 1085, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-suitcase {
+  background-position: -112px -96px; }
+
+/* line 1086, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-comment {
+  background-position: -128px -96px; }
+
+/* line 1087, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-person {
+  background-position: -144px -96px; }
+
+/* line 1088, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-print {
+  background-position: -160px -96px; }
+
+/* line 1089, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-trash {
+  background-position: -176px -96px; }
+
+/* line 1090, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-locked {
+  background-position: -192px -96px; }
+
+/* line 1091, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-unlocked {
+  background-position: -208px -96px; }
+
+/* line 1092, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-bookmark {
+  background-position: -224px -96px; }
+
+/* line 1093, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-tag {
+  background-position: -240px -96px; }
+
+/* line 1094, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-home {
+  background-position: 0 -112px; }
+
+/* line 1095, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-flag {
+  background-position: -16px -112px; }
+
+/* line 1096, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-calendar {
+  background-position: -32px -112px; }
+
+/* line 1097, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-cart {
+  background-position: -48px -112px; }
+
+/* line 1098, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-pencil {
+  background-position: -64px -112px; }
+
+/* line 1099, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-clock {
+  background-position: -80px -112px; }
+
+/* line 1100, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-disk {
+  background-position: -96px -112px; }
+
+/* line 1101, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-calculator {
+  background-position: -112px -112px; }
+
+/* line 1102, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-zoomin {
+  background-position: -128px -112px; }
+
+/* line 1103, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-zoomout {
+  background-position: -144px -112px; }
+
+/* line 1104, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-search {
+  background-position: -160px -112px; }
+
+/* line 1105, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-wrench {
+  background-position: -176px -112px; }
+
+/* line 1106, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-gear {
+  background-position: -192px -112px; }
+
+/* line 1107, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-heart {
+  background-position: -208px -112px; }
+
+/* line 1108, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-star {
+  background-position: -224px -112px; }
+
+/* line 1109, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-link {
+  background-position: -240px -112px; }
+
+/* line 1110, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-cancel {
+  background-position: 0 -128px; }
+
+/* line 1111, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-plus {
+  background-position: -16px -128px; }
+
+/* line 1112, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-plusthick {
+  background-position: -32px -128px; }
+
+/* line 1113, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-minus {
+  background-position: -48px -128px; }
+
+/* line 1114, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-minusthick {
+  background-position: -64px -128px; }
+
+/* line 1115, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-close {
+  background-position: -80px -128px; }
+
+/* line 1116, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-closethick {
+  background-position: -96px -128px; }
+
+/* line 1117, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-key {
+  background-position: -112px -128px; }
+
+/* line 1118, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-lightbulb {
+  background-position: -128px -128px; }
+
+/* line 1119, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-scissors {
+  background-position: -144px -128px; }
+
+/* line 1120, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-clipboard {
+  background-position: -160px -128px; }
+
+/* line 1121, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-copy {
+  background-position: -176px -128px; }
+
+/* line 1122, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-contact {
+  background-position: -192px -128px; }
+
+/* line 1123, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-image {
+  background-position: -208px -128px; }
+
+/* line 1124, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-video {
+  background-position: -224px -128px; }
+
+/* line 1125, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-script {
+  background-position: -240px -128px; }
+
+/* line 1126, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-alert {
+  background-position: 0 -144px; }
+
+/* line 1127, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-info {
+  background-position: -16px -144px; }
+
+/* line 1128, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-notice {
+  background-position: -32px -144px; }
+
+/* line 1129, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-help {
+  background-position: -48px -144px; }
+
+/* line 1130, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-check {
+  background-position: -64px -144px; }
+
+/* line 1131, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-bullet {
+  background-position: -80px -144px; }
+
+/* line 1132, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-radio-on {
+  background-position: -96px -144px; }
+
+/* line 1133, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-radio-off {
+  background-position: -112px -144px; }
+
+/* line 1134, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-pin-w {
+  background-position: -128px -144px; }
+
+/* line 1135, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-pin-s {
+  background-position: -144px -144px; }
+
+/* line 1136, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-play {
+  background-position: 0 -160px; }
+
+/* line 1137, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-pause {
+  background-position: -16px -160px; }
+
+/* line 1138, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-seek-next {
+  background-position: -32px -160px; }
+
+/* line 1139, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-seek-prev {
+  background-position: -48px -160px; }
+
+/* line 1140, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-seek-end {
+  background-position: -64px -160px; }
+
+/* line 1141, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-seek-start {
+  background-position: -80px -160px; }
+
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+/* line 1143, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-seek-first {
+  background-position: -80px -160px; }
+
+/* line 1144, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-stop {
+  background-position: -96px -160px; }
+
+/* line 1145, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-eject {
+  background-position: -112px -160px; }
+
+/* line 1146, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-volume-off {
+  background-position: -128px -160px; }
+
+/* line 1147, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-volume-on {
+  background-position: -144px -160px; }
+
+/* line 1148, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-power {
+  background-position: 0 -176px; }
+
+/* line 1149, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-signal-diag {
+  background-position: -16px -176px; }
+
+/* line 1150, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-signal {
+  background-position: -32px -176px; }
+
+/* line 1151, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-battery-0 {
+  background-position: -48px -176px; }
+
+/* line 1152, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-battery-1 {
+  background-position: -64px -176px; }
+
+/* line 1153, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-battery-2 {
+  background-position: -80px -176px; }
+
+/* line 1154, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-battery-3 {
+  background-position: -96px -176px; }
+
+/* line 1155, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-plus {
+  background-position: 0 -192px; }
+
+/* line 1156, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-minus {
+  background-position: -16px -192px; }
+
+/* line 1157, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-close {
+  background-position: -32px -192px; }
+
+/* line 1158, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-triangle-e {
+  background-position: -48px -192px; }
+
+/* line 1159, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-triangle-s {
+  background-position: -64px -192px; }
+
+/* line 1160, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-triangle-w {
+  background-position: -80px -192px; }
+
+/* line 1161, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-triangle-n {
+  background-position: -96px -192px; }
+
+/* line 1162, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-arrow-e {
+  background-position: -112px -192px; }
+
+/* line 1163, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-arrow-s {
+  background-position: -128px -192px; }
+
+/* line 1164, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-arrow-w {
+  background-position: -144px -192px; }
+
+/* line 1165, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-arrow-n {
+  background-position: -160px -192px; }
+
+/* line 1166, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-zoomin {
+  background-position: -176px -192px; }
+
+/* line 1167, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-zoomout {
+  background-position: -192px -192px; }
+
+/* line 1168, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circle-check {
+  background-position: -208px -192px; }
+
+/* line 1169, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circlesmall-plus {
+  background-position: 0 -208px; }
+
+/* line 1170, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circlesmall-minus {
+  background-position: -16px -208px; }
+
+/* line 1171, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-circlesmall-close {
+  background-position: -32px -208px; }
+
+/* line 1172, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-squaresmall-plus {
+  background-position: -48px -208px; }
+
+/* line 1173, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-squaresmall-minus {
+  background-position: -64px -208px; }
+
+/* line 1174, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-squaresmall-close {
+  background-position: -80px -208px; }
+
+/* line 1175, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-grip-dotted-vertical {
+  background-position: 0 -224px; }
+
+/* line 1176, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-grip-dotted-horizontal {
+  background-position: -16px -224px; }
+
+/* line 1177, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-grip-solid-vertical {
+  background-position: -32px -224px; }
+
+/* line 1178, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-grip-solid-horizontal {
+  background-position: -48px -224px; }
+
+/* line 1179, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-gripsmall-diagonal-se {
+  background-position: -64px -224px; }
+
+/* line 1180, ../../../app/sass/libs/jquery-ui.scss */
+.ui-icon-grip-diagonal-se {
+  background-position: -80px -224px; }
+
+/* Misc visuals
+----------------------------------*/
+/* Corner radius */
+/* line 1187, ../../../app/sass/libs/jquery-ui.scss */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 4px; }
+
+/* line 1193, ../../../app/sass/libs/jquery-ui.scss */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+  border-top-right-radius: 4px; }
+
+/* line 1199, ../../../app/sass/libs/jquery-ui.scss */
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-left-radius: 4px; }
+
+/* line 1205, ../../../app/sass/libs/jquery-ui.scss */
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+  border-bottom-right-radius: 4px; }
+
+/* Overlays */
+/* line 1213, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-overlay {
+  background: #aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+  /* support: IE8 */ }
+
+/* line 1218, ../../../app/sass/libs/jquery-ui.scss */
+.ui-widget-shadow {
+  margin: -8px 0 0 -8px;
+  padding: 8px;
+  background: #aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+  /* support: IE8 */
+  border-radius: 8px; }
+
+/* line 815, ../../../app/sass/libs/dcj.scss */
+.application-dashboard {
+  text-align: right;
+  padding: 0.3125rem;
+  padding-right: 0;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  z-index: 1;
+  width: 250px; }
+  /* line 825, ../../../app/sass/libs/dcj.scss */
+  .application-dashboard .toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    padding-left: 1.2rem;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: none; }
+    /* line 844, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .toggle:hover, .application-dashboard .toggle:active {
+      text-decoration: underline; }
+    /* line 848, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .toggle:before {
+      content: '';
+      position: absolute;
+      border-width: 0.6rem;
+      border-color: #fff transparent transparent transparent;
+      border-style: solid;
+      width: 0;
+      height: 0;
+      top: 35%;
+      left: 0; }
+  /* line 862, ../../../app/sass/libs/dcj.scss */
+  .application-dashboard .contents {
+    text-align: left;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    color: #0b0c0c;
+    position: relative;
+    margin-right: -2px;
+    border: 0.1rem solid #a1acb2;
+    padding: 1rem 2rem; }
+    /* line 873, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .contents:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 0.6rem;
+      border-color: transparent transparent #fff transparent;
+      border-style: solid;
+      top: -1.2rem;
+      right: 0.625rem; }
+    /* line 885, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .contents ul {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0; }
+    /* line 891, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .contents a {
+      display: block;
+      color: #2e3191;
+      padding-top: 0.3125rem;
+      margin-bottom: 0.3125rem;
+      font-weight: normal;
+      text-decoration: underline; }
+      /* line 899, ../../../app/sass/libs/dcj.scss */
+      .application-dashboard .contents a:hover, .application-dashboard .contents a:active {
+        text-decoration: none;
+        color: #2e8aca; }
+    /* line 906, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .contents .title {
+      font-family: "nta",Arial,sans-serif;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 700;
+      text-transform: none; }
+    /* line 914, ../../../app/sass/libs/dcj.scss */
+    .application-dashboard .contents .colour-switcher {
+      margin: 2rem 0 0 0; }
+      /* line 917, ../../../app/sass/libs/dcj.scss */
+      .application-dashboard .contents .colour-switcher a {
+        border: 1px solid #000;
+        background: #ccc;
+        color: #000;
+        display: inline-block;
+        margin: 0 0 0 -1px;
+        padding: 5px 15px;
+        text-decoration: none; }
+        /* line 926, ../../../app/sass/libs/dcj.scss */
+        .application-dashboard .contents .colour-switcher a.selected {
+          background: #fff; }
+
+@media only screen and (min-width: 40rem) {
+  /* line 940, ../../../app/sass/libs/dcj.scss */
+  .application-dashboard {
+    right: 2rem; }
+
+  /* line 943, ../../../app/sass/libs/dcj.scss */
+  .application-dashboard .toggle {
+    max-width: 35%; } }
+@media only screen and (min-width: 50rem) {
+  /* line 949, ../../../app/sass/libs/dcj.scss */
+  .application-dashboard .toggle {
+    max-width: 93%; } }
+/* line 15, ../../../app/templates/common/header.scss */
+#global-header .header-wrapper {
+  max-width: 100%;
+  padding: 0 80px 0 15px; }
+  /* line 22, ../../../app/templates/common/header.scss */
+  #global-header .header-wrapper .header-global .header-logo {
+    float: left;
+    margin: 10px 35px;
+    width: initial; }
+    /* line 28, ../../../app/templates/common/header.scss */
+    #global-header .header-wrapper .header-global .header-logo #logo img {
+      width: 100px;
+      height: 42px; }
+  /* line 39, ../../../app/templates/common/header.scss */
+  #global-header .header-wrapper h1 {
+    color: #fff;
+    float: left;
+    line-height: 60px;
+    margin-left: 30px;
+    text-transform: uppercase; }
+    @media (max-width: 730px) {
+      /* line 47, ../../../app/templates/common/header.scss */
+      #global-header .header-wrapper h1.bold-medium {
+        font-size: 18px; } }
+  /* line 59, ../../../app/templates/common/header.scss */
+  #global-header .header-wrapper .header-user-settings {
+    color: #fff;
+    font-size: 12px;
+    line-height: 60px;
+    position: absolute;
+    right: 30px; }
+  /* line 69, ../../../app/templates/common/header.scss */
+  #global-header .header-wrapper #user-details {
+    background: #000;
+    color: #fff;
+    min-width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1; }
+    @media (min-width: 641px) {
+      /* line 69, ../../../app/templates/common/header.scss */
+      #global-header .header-wrapper #user-details {
+        left: initial;
+        right: 30px;
+        width: auto; } }
+    /* line 90, ../../../app/templates/common/header.scss */
+    #global-header .header-wrapper #user-details a, #global-header .header-wrapper #user-details p {
+      color: #fff; }
+/* line 100, ../../../app/templates/common/header.scss */
+#global-header .header-bar {
+  background-color: #9325b2;
+  height: 10px; }
+
+/* line 3, ../../../app/templates/common/footer.scss */
+#footer .footer-wrapper {
+  padding-top: 10px;
+  width: 100%; }
+  /* line 8, ../../../app/templates/common/footer.scss */
+  #footer .footer-wrapper .footer-meta {
+    margin-right: 30px;
+    text-align: right; }
+    /* line 13, ../../../app/templates/common/footer.scss */
+    #footer .footer-wrapper .footer-meta .copyright {
+      width: initial; }
+
+/* line 1, ../../../app/templates/start/start.scss */
+#app-start {
+  text-align: center; }
+
+/* line 3, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+#dashboard .half-grid {
+  margin-top: 30px;
+  min-height: 150px; }
+  /* line 8, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard .half-grid > div {
+    padding: 20px; }
+/* line 14, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+#dashboard .full-grid {
+  outline: none; }
+
+/* line 22, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+#dashboard {
+  /* Zebra striping */ }
+  /* line 23, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard .dashboard-menu {
+    text-align: right;
+    *zoom: 1; }
+    /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #dashboard .dashboard-menu:before, #dashboard .dashboard-menu:after {
+      content: " ";
+      display: table; }
+    /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #dashboard .dashboard-menu:after {
+      clear: both; }
+    /* line 28, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard .dashboard-menu ul {
+      margin-top: 30px; }
+    /* line 34, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard .dashboard-menu li {
+      display: inline-block;
+      text-align: center; }
+      /* line 38, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+      #dashboard .dashboard-menu li a {
+        border: 1px solid #bfc1c3;
+        margin-right: -1px;
+        display: block;
+        padding: 1rem 3rem; }
+  /* line 50, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    width: 100%; }
+  /* line 56, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard tr:nth-of-type(even) {
+    background: rgba(200, 200, 200, 0.35); }
+  /* line 59, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard td, #dashboard th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+    color: inherit; }
+  /* line 65, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard th {
+    background: rgba(200, 200, 200, 0.35);
+    font-weight: bold; }
+  /* line 70, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard tbody tr {
+    cursor: pointer; }
+    /* line 72, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard tbody tr:hover {
+      color: cornflowerblue; }
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 960px), (min-device-width: 968px) and (max-device-width: 1224px) {
+  /* line 88, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+  #dashboard {
+    /* Force table to not be like tables anymore */
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /*
+    Label the data
+    */ }
+    /* line 90, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard table, #dashboard thead, #dashboard tbody, #dashboard th, #dashboard td, #dashboard tr {
+      display: block; }
+    /* line 95, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px; }
+    /* line 101, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard tr {
+      border: 1px solid #ccc;
+      margin-bottom: 20px; }
+    /* line 108, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%; }
+    /* line 116, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap; }
+    /* line 131, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(1):before {
+      content: "HO Ref"; }
+    /* line 132, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(2):before {
+      content: "Main Applicant's name"; }
+    /* line 133, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(3):before {
+      content: "DoB"; }
+    /* line 134, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(4):before {
+      content: "Gender"; }
+    /* line 135, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(5):before {
+      content: "Nationality"; }
+    /* line 136, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(6):before {
+      content: "CID Ref"; }
+    /* line 137, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(7):before {
+      content: "Status"; }
+    /* line 138, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(8):before {
+      content: "Assigned By"; }
+    /* line 139, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(9):before {
+      content: "Special Cond"; }
+    /* line 140, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(10):before {
+      content: "SLA"; }
+    /* line 141, ../../../app/templates/dashboardCaseManager/dashboard.scss */
+    #dashboard td:nth-of-type(11):before {
+      content: "Next Step"; } }
+@font-face {
+  font-family: 'IcoMoon-Free';
+  src: url("../fonts/IcoMoon-Free.ttf?-b7qzp2") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* line 11, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+.ipt-grid {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .ipt-grid:before, .ipt-grid:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .ipt-grid:after {
+    clear: both; }
+  /* line 14, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  .ipt-grid .cell-outline {
+    outline: 1px solid #bfc1c3; }
+  /* line 17, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  .ipt-grid .one-quarter {
+    width: 23%;
+    margin: 0 1%;
+    float: left; }
+    @media (max-width: 760px) {
+      /* line 17, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      .ipt-grid .one-quarter {
+        width: 100%;
+        margin: 0; } }
+  /* line 27, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  .ipt-grid .two-quarter {
+    width: 48%;
+    margin: 0 1%;
+    float: left; }
+    @media (max-width: 760px) {
+      /* line 27, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      .ipt-grid .two-quarter {
+        width: 100%;
+        margin: 0; } }
+  /* line 37, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  .ipt-grid .three-quarter {
+    width: 73%;
+    margin: 0 1%;
+    float: left; }
+    @media (max-width: 760px) {
+      /* line 37, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      .ipt-grid .three-quarter {
+        width: 100%;
+        margin: 0; } }
+    /* line 47, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    .ipt-grid .three-quarter .one-quarter {
+      margin: 0 2% 0 0; }
+      @media (max-width: 760px) {
+        /* line 47, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        .ipt-grid .three-quarter .one-quarter {
+          margin: 0; } }
+    /* line 54, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    .ipt-grid .three-quarter .two-quarter {
+      margin: 0 2% 0 0; }
+      @media (max-width: 760px) {
+        /* line 54, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        .ipt-grid .three-quarter .two-quarter {
+          margin: 0; } }
+    /* line 61, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    .ipt-grid .three-quarter .three-quarter {
+      margin: 0 2% 0 0; }
+      @media (max-width: 760px) {
+        /* line 61, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        .ipt-grid .three-quarter .three-quarter {
+          margin: 0; } }
+    /* line 68, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    .ipt-grid .three-quarter .four-quarter {
+      margin: 0 2% 0 0;
+      width: 98%; }
+      @media (max-width: 760px) {
+        /* line 68, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        .ipt-grid .three-quarter .four-quarter {
+          margin: 0; } }
+  /* line 76, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  .ipt-grid .four-quarter {
+    width: 100%;
+    margin: 0;
+    float: left; }
+
+/* line 86, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .case-details {
+  outline: none; }
+/* line 92, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .case-status {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 1.5rem; }
+  /* line 102, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .case-status p {
+    margin: 1.5rem 0;
+    text-align: center; }
+/* line 109, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .next-step {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 1.5rem; }
+  /* line 116, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .next-step ul {
+    margin-top: 10px; }
+    /* line 120, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .next-step ul li {
+      list-style-type: disc;
+      margin-left: 30px; }
+/* line 130, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .timeline {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin-top: 2rem; }
+  /* line 138, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .timeline #timeline-menu {
+    *zoom: 1; }
+    /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #case-manager .timeline #timeline-menu:before, #case-manager .timeline #timeline-menu:after {
+      content: " ";
+      display: table; }
+    /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #case-manager .timeline #timeline-menu:after {
+      clear: both; }
+    /* line 142, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline #timeline-menu li {
+      display: inline;
+      width: 20%;
+      text-align: center;
+      float: left; }
+      /* line 148, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      #case-manager .timeline #timeline-menu li a {
+        border: 1px solid #000;
+        margin-right: -1px;
+        display: block;
+        padding: 1rem 0; }
+  /* line 162, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .timeline .timeline-view article {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    position: relative; }
+    /* line 168, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline .timeline-view article .decision__options {
+      position: absolute;
+      right: 0;
+      top: 0;
+      *zoom: 1; }
+      /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #case-manager .timeline .timeline-view article .decision__options:before, #case-manager .timeline .timeline-view article .decision__options:after {
+        content: " ";
+        display: table; }
+      /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #case-manager .timeline .timeline-view article .decision__options:after {
+        clear: both; }
+      /* line 176, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      #case-manager .timeline .timeline-view article .decision__options li, #case-manager .timeline .timeline-view article .decision__options a {
+        display: inline-block;
+        text-align: center;
+        max-height: 45px;
+        min-width: 25px;
+        margin: 0 1rem 0 0; }
+      /* line 184, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      #case-manager .timeline .timeline-view article .decision__options .timeline-entry-menu {
+        position: absolute;
+        top: 37px;
+        border: 1px solid #000;
+        min-height: 80px;
+        background: white;
+        padding: 10px;
+        right: -999999999px;
+        z-index: 1; }
+        /* line 193, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        #case-manager .timeline .timeline-view article .decision__options .timeline-entry-menu.show {
+          right: 55px; }
+    /* line 200, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline .timeline-view article h5 {
+      border-bottom: 1px solid #000;
+      font-size: 2rem;
+      padding-bottom: 1rem; }
+      /* line 206, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      #case-manager .timeline .timeline-view article h5 a {
+        text-decoration: none;
+        color: inherit; }
+    /* line 213, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline .timeline-view article p {
+      font-size: 1.5rem; }
+    /* line 219, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline .timeline-view article .decision__information {
+      *zoom: 1; }
+      /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #case-manager .timeline .timeline-view article .decision__information:before, #case-manager .timeline .timeline-view article .decision__information:after {
+        content: " ";
+        display: table; }
+      /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #case-manager .timeline .timeline-view article .decision__information:after {
+        clear: both; }
+      /* line 225, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+      #case-manager .timeline .timeline-view article .decision__information ul li {
+        float: left;
+        font-size: 1.5rem;
+        width: 33%;
+        text-align: left; }
+        /* line 232, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+        #case-manager .timeline .timeline-view article .decision__information ul li.icon {
+          background-position: left;
+          height: inherit; }
+          /* line 237, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+          #case-manager .timeline .timeline-view article .decision__information ul li.icon p {
+            padding-left: 40px;
+            margin: 0; }
+    /* line 251, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .timeline .timeline-view article .decision__footer {
+      padding-top: 10px;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      text-align: right; }
+/* line 266, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-links ul {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #case-manager .task-links ul:before, #case-manager .task-links ul:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #case-manager .task-links ul:after {
+    clear: both; }
+/* line 270, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-links li {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 4%; }
+  @media (max-width: 760px) {
+    /* line 270, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .task-links li {
+      width: 25.3%; } }
+  @media (min-width: 760px) {
+    /* line 270, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .task-links li {
+      width: 100%; } }
+  @media (min-width: 990px) {
+    /* line 270, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+    #case-manager .task-links li {
+      width: 25.3%; } }
+/* line 287, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-links a, #case-manager .task-links span {
+  color: inherit;
+  display: block;
+  font-size: 1.2rem;
+  min-height: 30px;
+  text-decoration: none; }
+/* line 295, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-links .task-links__link {
+  padding: 10px 0px; }
+  /* line 299, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .task-links .task-links__link.disabled {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none; }
+/* line 307, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-links .task-links__link__icon {
+  font-size: 3rem; }
+/* line 315, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+#case-manager .task-info {
+  padding: 2rem; }
+  /* line 319, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .task-info .icon {
+    font-size: 4rem;
+    margin-bottom: 0; }
+  /* line 326, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .task-info .title {
+    font-size: 2.125rem; }
+  /* line 332, ../../../app/templates/dashboardCaseManager/caseManager.scss */
+  #case-manager .task-info .task-info__close {
+    font-size: 3rem;
+    float: right;
+    text-decoration: none; }
+
+/* line 4, ../../../app/templates/dashboardCaseManager/addBookingTask.scss */
+#case-manager .back-to-case {
+  display: inline-block;
+  margin: 0 0 2rem 0; }
+/* line 11, ../../../app/templates/dashboardCaseManager/addBookingTask.scss */
+#case-manager .add-task {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 0 1.5rem 1.5rem 1.5rem; }
+  /* line 17, ../../../app/templates/dashboardCaseManager/addBookingTask.scss */
+  #case-manager .add-task h3 {
+    margin-bottom: 2rem; }
+
+@font-face {
+  font-family: 'IcoMoon-Free';
+  src: url("../fonts/IcoMoon-Free.ttf?-b7qzp2") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* line 18, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .view-task article {
+  margin: 10px 0;
+  padding: 10px;
+  position: relative; }
+  /* line 23, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .view-task article .decision__options {
+    position: absolute;
+    right: 0;
+    top: 0;
+    *zoom: 1; }
+    /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #case-manager .view-task article .decision__options:before, #case-manager .view-task article .decision__options:after {
+      content: " ";
+      display: table; }
+    /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+    #case-manager .view-task article .decision__options:after {
+      clear: both; }
+    /* line 31, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+    #case-manager .view-task article .decision__options li, #case-manager .view-task article .decision__options a {
+      display: inline-block;
+      text-align: center;
+      max-height: 45px;
+      min-width: 25px;
+      margin: 0 1rem 0 0; }
+  /* line 42, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .view-task article h5 {
+    border-bottom: 1px solid #000;
+    font-size: 2rem;
+    padding-bottom: 1rem; }
+    /* line 48, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+    #case-manager .view-task article h5 a {
+      text-decoration: none;
+      color: inherit; }
+  /* line 55, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .view-task article .decision__created {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: right; }
+/* line 67, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-links ul {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #case-manager .task-links ul:before, #case-manager .task-links ul:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #case-manager .task-links ul:after {
+    clear: both; }
+/* line 71, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-links li {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 4%; }
+  @media (max-width: 760px) {
+    /* line 71, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+    #case-manager .task-links li {
+      width: 25.3%; } }
+  @media (min-width: 760px) {
+    /* line 71, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+    #case-manager .task-links li {
+      width: 100%; } }
+  @media (min-width: 990px) {
+    /* line 71, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+    #case-manager .task-links li {
+      width: 25.3%; } }
+/* line 88, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-links a, #case-manager .task-links span {
+  color: inherit;
+  display: block;
+  font-size: 1.2rem;
+  min-height: 30px;
+  text-decoration: none; }
+/* line 96, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-links .task-links__link {
+  padding: 10px 0px; }
+  /* line 100, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .task-links .task-links__link.disabled {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none; }
+/* line 108, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-links .task-links__link__icon {
+  font-size: 3rem; }
+/* line 116, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+#case-manager .task-info {
+  padding: 2rem; }
+  /* line 120, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .task-info .icon {
+    font-size: 4rem;
+    margin-bottom: 0; }
+  /* line 127, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .task-info .title {
+    font-size: 2.125rem; }
+  /* line 133, ../../../app/templates/dashboardCaseManager/viewTask.scss */
+  #case-manager .task-info .task-info__close {
+    font-size: 3rem;
+    float: right;
+    text-decoration: none; }
+
+/* line 1, ../../../app/templates/decision/decisionStart.scss */
+.start-content {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .start-content:before, .start-content:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .start-content:after {
+    clear: both; }
+  /* line 5, ../../../app/templates/decision/decisionStart.scss */
+  .start-content .text-content {
+    float: left;
+    margin: 2% 0%;
+    text-align: left;
+    width: 100%; }
+    /* line 12, ../../../app/templates/decision/decisionStart.scss */
+    .start-content .text-content p {
+      display: inherit;
+      max-width: inherit;
+      padding: 0; }
+    @media (min-width: 769px) {
+      /* line 5, ../../../app/templates/decision/decisionStart.scss */
+      .start-content .text-content {
+        margin: 2%;
+        padding: 2%;
+        width: 42%; } }
+    @media (min-width: 769px) {
+      /* line 28, ../../../app/templates/decision/decisionStart.scss */
+      .start-content .text-content.retrieval-content {
+        outline: 1px solid #a1a1a1; } }
+
+/* line 3, ../../../app/templates/decision/notification.scss */
+#notification .message {
+  margin-top: 20px;
+  outline: 1px solid #a1a1a1;
+  padding: 10px;
+  text-align: center; }
+  /* line 10, ../../../app/templates/decision/notification.scss */
+  #notification .message p {
+    margin: 0; }
+    /* line 14, ../../../app/templates/decision/notification.scss */
+    #notification .message p span {
+      font-weight: bold; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 27, ../../../app/templates/decision/applicationHeader.scss */
+.application-header {
+  font-family: "nta", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  *zoom: 1;
+  border: 1px solid #bfc1c3;
+  margin: 15px 0;
+  padding: 15px 0;
+  position: relative; }
+  @media (max-width: 640px) {
+    /* line 27, ../../../app/templates/decision/applicationHeader.scss */
+    .application-header {
+      font-size: 12px;
+      line-height: 1.25; } }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .application-header:before, .application-header:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .application-header:after {
+    clear: both; }
+
+/* line 37, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__profile {
+  float: left;
+  margin: 0 1%;
+  max-width: 105px;
+  width: 11%; }
+  /* line 44, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__profile img {
+    width: 100%; }
+  /* line 48, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__profile p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 14px; }
+
+/* line 59, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__data-holder {
+  float: left;
+  width: 55%; }
+
+/* line 66, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__biometric-data,
+.application-header__application-data {
+  width: 50%;
+  float: left; }
+  /* line 71, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__biometric-data caption,
+  .application-header__application-data caption {
+    text-align: left; }
+  /* line 76, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__biometric-data th, .application-header__biometric-data td,
+  .application-header__application-data th,
+  .application-header__application-data td {
+    border: 0;
+    padding: 0; }
+  /* line 81, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__biometric-data th,
+  .application-header__application-data th {
+    font-weight: normal;
+    color: #6f777b;
+    text-align: left;
+    padding-right: 3%; }
+    @media (desktop) {
+      /* line 81, ../../../app/templates/decision/applicationHeader.scss */
+      .application-header__biometric-data th,
+      .application-header__application-data th {
+        text-align: right; } }
+
+/* line 94, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__family {
+  float: left;
+  margin-top: 65px;
+  text-align: center;
+  width: 15%; }
+
+/* line 108, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__alerts {
+  float: right;
+  margin: 0 1%;
+  text-align: center;
+  width: 15%; }
+  /* line 115, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__alerts strong {
+    font-weight: bold; }
+
+/* line 122, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__warning {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border: solid 1px #0b0c0c; }
+  /* line 128, ../../../app/templates/decision/applicationHeader.scss */
+  .application-header__warning span {
+    font-size: 70px;
+    display: block; }
+
+/* line 133, ../../../app/templates/decision/applicationHeader.scss */
+.application-header__warning__count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
+  border-left: solid 1px #0b0c0c;
+  border-bottom: solid 1px #0b0c0c; }
+
+/* line 3, ../../../app/templates/decision/decisionLetter.scss */
+.decision-letter {
+  display: inline-block; }
+  /* line 7, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter .show {
+    display: inline-block; }
+  /* line 13, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter > a {
+    color: #fff; }
+
+/* line 21, ../../../app/templates/decision/decisionLetter.scss */
+.decision-letter__holder {
+  border: 1px solid #6f777b;
+  margin-bottom: 20px;
+  position: relative; }
+  /* line 27, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter__holder .icon {
+    color: #6f777b;
+    font-size: 4rem;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+  /* line 37, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter__holder img {
+    display: none; }
+    /* line 41, ../../../app/templates/decision/decisionLetter.scss */
+    .decision-letter__holder img.show {
+      display: inline-block; }
+
+/* line 52, ../../../app/templates/decision/decisionLetter.scss */
+.decision-letter__nav {
+  *zoom: 1;
+  margin-bottom: 10px; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .decision-letter__nav:before, .decision-letter__nav:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .decision-letter__nav:after {
+    clear: both; }
+  /* line 57, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter__nav .button-prev, .decision-letter__nav .button-next {
+    display: none;
+    float: left; }
+    /* line 62, ../../../app/templates/decision/decisionLetter.scss */
+    .decision-letter__nav .button-prev.show, .decision-letter__nav .button-next.show {
+      display: inline-block; }
+  /* line 69, ../../../app/templates/decision/decisionLetter.scss */
+  .decision-letter__nav .button-next {
+    display: none;
+    float: right; }
+
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+/* line 4, ../../../app/templates/decision/nav.scss */
+.exit-nav {
+  position: relative;
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .exit-nav:before, .exit-nav:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  .exit-nav:after {
+    clear: both; }
+  /* line 9, ../../../app/templates/decision/nav.scss */
+  .exit-nav .exit-nav__button-dont-save {
+    float: left;
+    margin: 0 0 15px 0; }
+  /* line 16, ../../../app/templates/decision/nav.scss */
+  .exit-nav .exit-nav__button-save {
+    float: right;
+    margin: 0 0 15px 0; }
+  /* line 23, ../../../app/templates/decision/nav.scss */
+  .exit-nav .exit-nav__status {
+    position: absolute;
+    text-align: center;
+    width: 100%; }
+    /* line 29, ../../../app/templates/decision/nav.scss */
+    .exit-nav .exit-nav__status p {
+      margin: 0;
+      line-height: 40px; }
+      /* line 33, ../../../app/templates/decision/nav.scss */
+      .exit-nav .exit-nav__status p strong {
+        font-weight: bold; }
+
+/* line 44, ../../../app/templates/decision/nav.scss */
+.main-nav {
+  margin: 20px 0;
+  text-align: center; }
+  /* line 52, ../../../app/templates/decision/nav.scss */
+  .main-nav ul li {
+    display: inline-block; }
+    @media (min-width: 1221px) {
+      /* line 52, ../../../app/templates/decision/nav.scss */
+      .main-nav ul li {
+        font-family: "nta", Arial, sans-serif;
+        font-size: 19px;
+        line-height: 1.31579;
+        font-weight: 400;
+        text-transform: none;
+        padding: 0 4px; } }
+  @media (min-width: 1221px) and (max-width: 640px) {
+    /* line 52, ../../../app/templates/decision/nav.scss */
+    .main-nav ul li {
+      font-size: 16px;
+      line-height: 1.25; } }
+
+    @media (max-width: 1220px) {
+      /* line 52, ../../../app/templates/decision/nav.scss */
+      .main-nav ul li {
+        font-family: "nta", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.25;
+        font-weight: 400;
+        text-transform: none;
+        padding: 0 5px; } }
+  @media (max-width: 1220px) and (max-width: 640px) {
+    /* line 52, ../../../app/templates/decision/nav.scss */
+    .main-nav ul li {
+      font-size: 14px;
+      line-height: 1.14286; } }
+
+    @media (max-width: 950px) {
+      /* line 52, ../../../app/templates/decision/nav.scss */
+      .main-nav ul li {
+        font-family: "nta", Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        font-weight: 400;
+        text-transform: none;
+        padding: 0 1px; } }
+  @media (max-width: 950px) and (max-width: 640px) {
+    /* line 52, ../../../app/templates/decision/nav.scss */
+    .main-nav ul li {
+      font-size: 12px;
+      line-height: 1.25; } }
+
+    /* line 71, ../../../app/templates/decision/nav.scss */
+    .main-nav ul li a {
+      color: #000;
+      text-decoration: none; }
+      /* line 76, ../../../app/templates/decision/nav.scss */
+      .main-nav ul li a.disabled {
+        color: #a1a1a1;
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none; }
+      /* line 85, ../../../app/templates/decision/nav.scss */
+      .main-nav ul li a.current-section {
+        text-decoration: underline; }
+
+/* line 4, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_elements/elements/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  padding: 0; }
+
+/* line 11, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet, .form-hint ul {
+  list-style-type: disc;
+  padding-left: 20px; }
+
+/* line 17, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_elements/elements/_lists.scss */
+.list-number {
+  list-style-type: decimal;
+  padding-left: 20px; }
+
+/* line 25, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet, .form-hint ul,
+.list-number {
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+/* line 31, /var/www/ho/ipt/asylum_prototype/app/sass/libs/gov_elements/elements/_lists.scss */
+.list-bullet li, .form-hint ul li,
+.list-number li {
+  margin-bottom: 5px; }
+
+/* line 5, ../../../app/templates/decision/questionArea.scss */
+#questions .heading-medium {
+  margin: 0.83333em 0; }
+
+/* line 12, ../../../app/templates/decision/questionArea.scss */
+.text-content {
+  width: 100%;
+  text-align: center; }
+  /* line 17, ../../../app/templates/decision/questionArea.scss */
+  .text-content p {
+    display: inline-block;
+    max-width: 550px;
+    padding: 40px 0;
+    text-align: left; }
+
+/* line 29, ../../../app/templates/decision/questionArea.scss */
+.form-hint p {
+  margin: 0; }
+
+/* line 41, ../../../app/templates/decision/questionArea.scss */
+.form-group > label {
+  margin-bottom: 10px; }
+/* line 48, ../../../app/templates/decision/questionArea.scss */
+.form-group .inline-link {
+  margin-left: 20px; }
+/* line 55, ../../../app/templates/decision/questionArea.scss */
+.form-group select.form-control {
+  width: auto;
+  -webkit-appearance: menulist-button;
+  height: 2em; }
+/* line 64, ../../../app/templates/decision/questionArea.scss */
+.form-group.form-group-day, .form-group.form-group-month {
+  width: auto; }
+/* line 71, ../../../app/templates/decision/questionArea.scss */
+.form-group.form-group-year input {
+  height: 2em;
+  text-align: center; }
+
+/* line 82, ../../../app/templates/decision/questionArea.scss */
+#questions .form-group__additional {
+  border-left: 10px solid #bfc1c3;
+  margin-bottom: 40px;
+  padding: 0 10px; }
+  /* line 88, ../../../app/templates/decision/questionArea.scss */
+  #questions .form-group__additional .heading-medium {
+    margin-top: 0; }
+
+/* line 1, ../../../app/templates/decision/sectionSummary.scss */
+.summary-area {
+  margin: 50px 0; }
+  /* line 5, ../../../app/templates/decision/sectionSummary.scss */
+  .summary-area .summary-area__edit {
+    margin-left: 20px; }
+  /* line 11, ../../../app/templates/decision/sectionSummary.scss */
+  .summary-area .disabled {
+    color: #a1a1a1;
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none; }
+  /* line 21, ../../../app/templates/decision/sectionSummary.scss */
+  .summary-area .overall-summary-text span {
+    display: inline-block;
+    width: 30px; }
+    /* line 26, ../../../app/templates/decision/sectionSummary.scss */
+    .summary-area .overall-summary-text span.complete {
+      background: url(../content/images/tick.gif) no-repeat center center; }
+
+/* line 1, ../../../app/templates/permissionManagement/permissionManagementStart.scss */
+#permission-management-start {
+  margin-top: 8rem;
+  text-align: center; }
+
+/* line 6, ../../../app/templates/permissionManagement/permissionManagement.scss */
+#permission-management {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #permission-management:before, #permission-management:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #permission-management:after {
+    clear: both; }
+  /* line 10, ../../../app/templates/permissionManagement/permissionManagement.scss */
+  #permission-management #permission-nav {
+    float: left;
+    width: 20%;
+    margin-top: 12rem; }
+    /* line 21, ../../../app/templates/permissionManagement/permissionManagement.scss */
+    #permission-management #permission-nav a {
+      border-right: 1px solid #bfc1c3;
+      border-bottom: 1px solid #bfc1c3;
+      border-left: 1px solid #bfc1c3;
+      display: block;
+      padding: 0.5rem;
+      margin-right: -1px; }
+      /* line 29, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-nav a:first-child {
+        border-top: 1px solid #bfc1c3; }
+      /* line 35, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-nav a.selected {
+        border-right: 1px solid #fff; }
+  /* line 44, ../../../app/templates/permissionManagement/permissionManagement.scss */
+  #permission-management #permission-area {
+    float: right;
+    width: 80%; }
+    /* line 48, ../../../app/templates/permissionManagement/permissionManagement.scss */
+    #permission-management #permission-area #permission-area-holder {
+      border: 1px solid #bfc1c3;
+      min-height: 200px;
+      padding: 2rem; }
+    /* line 55, ../../../app/templates/permissionManagement/permissionManagement.scss */
+    #permission-management #permission-area p {
+      display: inline-block; }
+      /* line 58, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area p.add-email {
+        padding-left: 40px; }
+    /* line 65, ../../../app/templates/permissionManagement/permissionManagement.scss */
+    #permission-management #permission-area #notification {
+      margin: 3rem 0; }
+      /* line 69, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area #notification h2 {
+        font-family: "nta", Arial, sans-serif;
+        font-size: 24px;
+        line-height: 1.25;
+        font-weight: 700;
+        margin-bottom: 0.6rem; }
+      /* line 79, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area #notification p {
+        margin: 0; }
+      /* line 83, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area #notification.error {
+        border: 0.3rem solid #b10e1e;
+        background-color: #fef7f7;
+        padding: 1.6rem; }
+      /* line 91, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area #notification.warning {
+        border: 0.3rem solid #f47738;
+        background-color: #F7DFD2;
+        padding: 1.6rem; }
+      /* line 99, ../../../app/templates/permissionManagement/permissionManagement.scss */
+      #permission-management #permission-area #notification.success {
+        border: 0.3rem solid #006435;
+        background-color: #e0fff1;
+        padding: 1.6rem; }
+
+/* line 6, ../../../app/templates/userAccount/administer.scss */
+#user-administer {
+  *zoom: 1; }
+  /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #user-administer:before, #user-administer:after {
+    content: " ";
+    display: table; }
+  /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+  #user-administer:after {
+    clear: both; }
+  /* line 10, ../../../app/templates/userAccount/administer.scss */
+  #user-administer #user-administer-nav {
+    float: left;
+    width: 20%;
+    margin-top: 12rem; }
+    /* line 21, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-nav a {
+      border-right: 1px solid #bfc1c3;
+      border-bottom: 1px solid #bfc1c3;
+      border-left: 1px solid #bfc1c3;
+      display: block;
+      padding: 0.5rem;
+      margin-right: -1px; }
+      /* line 29, ../../../app/templates/userAccount/administer.scss */
+      #user-administer #user-administer-nav a:first-child {
+        border-top: 1px solid #bfc1c3; }
+      /* line 35, ../../../app/templates/userAccount/administer.scss */
+      #user-administer #user-administer-nav a.selected {
+        border-right: 1px solid #fff; }
+      /* line 41, ../../../app/templates/userAccount/administer.scss */
+      #user-administer #user-administer-nav a.disabled {
+        opacity: 0.5;
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none; }
+  /* line 53, ../../../app/templates/userAccount/administer.scss */
+  #user-administer #user-administer-area {
+    float: right;
+    width: 80%; }
+    /* line 57, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #administer-area-holder {
+      border: 1px solid #bfc1c3;
+      min-height: 65rem;
+      padding: 2rem; }
+    /* line 64, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area p {
+      display: inline-block; }
+      /* line 67, ../../../app/templates/userAccount/administer.scss */
+      #user-administer #user-administer-area p.add-email {
+        padding-left: 40px; }
+    /* line 75, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area .sub-menu {
+      text-align: right;
+      *zoom: 1; }
+      /* line 17, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #user-administer #user-administer-area .sub-menu:before, #user-administer #user-administer-area .sub-menu:after {
+        content: " ";
+        display: table; }
+      /* line 23, ../../../app/sass/libs/bourbon/addons/_clearfix.scss */
+      #user-administer #user-administer-area .sub-menu:after {
+        clear: both; }
+      /* line 81, ../../../app/templates/userAccount/administer.scss */
+      #user-administer #user-administer-area .sub-menu li {
+        display: inline-block;
+        text-align: center; }
+        /* line 85, ../../../app/templates/userAccount/administer.scss */
+        #user-administer #user-administer-area .sub-menu li a {
+          border: 1px solid #bfc1c3;
+          margin-right: -1px;
+          display: block;
+          padding: 1rem 3rem; }
+    /* line 98, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table th, #user-administer #user-administer-area #information-table td {
+      padding: 1rem; }
+    /* line 103, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table tbody tr:nth-of-type(odd) {
+      background: rgba(200, 200, 200, 0.35); }
+    /* line 107, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table p {
+      margin: 1rem 0; }
+    /* line 112, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table .information-table__decision-details__created {
+      margin: 0; }
+    /* line 115, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table .information-table__decision-details__modified {
+      margin: 0; }
+    /* line 119, ../../../app/templates/userAccount/administer.scss */
+    #user-administer #user-administer-area #information-table .information-table__decision-additional {
+      text-align: center; }
+
+/* ================================================================
+   General template styling
+   ================================================================ */
+/* line 6, ../../../app/sass/src/main.scss */
+* {
+  /* Removes the transparent black box around things when tapped on iOS */
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 11, ../../../app/sass/src/main.scss */
+#page-container {
+  padding: 0 30px 30px 30px; }
+
+/* line 2, ../../../app/sass/src/colourSwitcher.scss */
+html.dark {
+  background: #222; }
+  /* line 5, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark body {
+    background: #333;
+    color: #fff; }
+  /* line 11, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark p, html.dark tr, html.dark td {
+    color: #fff; }
+  /* line 15, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark a:visited {
+    color: #82B4FF; }
+  /* line 19, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark a:link {
+    color: #0066FF; }
+  /* line 25, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark .main-nav ul li a {
+    color: #fff; }
+    /* line 29, ../../../app/sass/src/colourSwitcher.scss */
+    html.dark .main-nav ul li a.disabled {
+      color: #a1a1a1; }
+  /* line 39, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark .form-label {
+    color: #fff; }
+  /* line 45, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark .block-label {
+    background: #555; }
+    /* line 49, ../../../app/sass/src/colourSwitcher.scss */
+    html.dark .block-label.selected {
+      background: #fff;
+      color: #000; }
+  /* line 58, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark .form-hint {
+    color: #ccc; }
+  /* line 64, ../../../app/sass/src/colourSwitcher.scss */
+  html.dark #footer {
+    background-color: #222; }
+    /* line 67, ../../../app/sass/src/colourSwitcher.scss */
+    html.dark #footer .footer-wrapper {
+      background-color: #222; }
+
+/* line 1, ../../../app/sass/src/icons.scss */
+.icon {
+  height: 64px; }
+  /* line 4, ../../../app/sass/src/icons.scss */
+  .icon.icon-referral {
+    background: url("../content/images/icons/referral.png") center no-repeat;
+    background-size: contain; }
+  /* line 8, ../../../app/sass/src/icons.scss */
+  .icon.icon-booking {
+    background: url("../content/images/icons/booking.png") center no-repeat;
+    background-size: contain; }
+  /* line 12, ../../../app/sass/src/icons.scss */
+  .icon.icon-interview {
+    background: url("../content/images/icons/interview.png") center no-repeat;
+    background-size: contain; }
+  /* line 16, ../../../app/sass/src/icons.scss */
+  .icon.icon-check {
+    background: url("../content/images/icons/check.png") center no-repeat;
+    background-size: contain; }
+  /* line 20, ../../../app/sass/src/icons.scss */
+  .icon.icon-decision {
+    background: url("../content/images/icons/decision.png") center no-repeat;
+    background-size: contain; }
+  /* line 24, ../../../app/sass/src/icons.scss */
+  .icon.icon-routing {
+    background: url("../content/images/icons/routing.png") center no-repeat;
+    background-size: contain; }
+  /* line 28, ../../../app/sass/src/icons.scss */
+  .icon.icon-reporting {
+    background: url("../content/images/icons/reporting.png") center no-repeat;
+    background-size: contain; }
+  /* line 32, ../../../app/sass/src/icons.scss */
+  .icon.icon-support {
+    background: url("../content/images/icons/support.png") center no-repeat;
+    background-size: contain; }
+  /* line 36, ../../../app/sass/src/icons.scss */
+  .icon.icon-letter {
+    background: url("../content/images/icons/letter.png") center no-repeat;
+    background-size: contain; }
+  /* line 40, ../../../app/sass/src/icons.scss */
+  .icon.icon-accommodation {
+    background: url("../content/images/icons/accommodation.png") center no-repeat;
+    background-size: contain; }
+  /* line 44, ../../../app/sass/src/icons.scss */
+  .icon.icon-card {
+    background: url("../content/images/icons/card.png") center no-repeat;
+    background-size: contain; }
+  /* line 48, ../../../app/sass/src/icons.scss */
+  .icon.icon-transport {
+    background: url("../content/images/icons/transport.png") center no-repeat;
+    background-size: contain; }
+  /* line 52, ../../../app/sass/src/icons.scss */
+  .icon.icon-export {
+    background: url("../content/images/icons/export.png") center no-repeat;
+    background-size: contain; }
+  /* line 56, ../../../app/sass/src/icons.scss */
+  .icon.icon-contact {
+    background: url("../content/images/icons/contact.png") center no-repeat;
+    background-size: contain; }
+  /* line 60, ../../../app/sass/src/icons.scss */
+  .icon.icon-person {
+    background: url("../content/images/icons/person.png") center no-repeat;
+    background-size: contain; }
+  /* line 64, ../../../app/sass/src/icons.scss */
+  .icon.icon-ellipsis {
+    background: url("../content/images/icons/ellipsis.png") center no-repeat;
+    background-size: contain; }
+  /* line 70, ../../../app/sass/src/icons.scss */
+  .icon.icon-alert {
+    background: url("../content/images/icons/alert.png") center no-repeat;
+    background-size: contain; }
+  /* line 74, ../../../app/sass/src/icons.scss */
+  .icon.icon-document {
+    background: url("../content/images/icons/document.png") center no-repeat;
+    background-size: contain; }
+  /* line 78, ../../../app/sass/src/icons.scss */
+  .icon.icon-list {
+    background: url("../content/images/icons/list.png") center no-repeat;
+    background-size: contain; }
+  /* line 82, ../../../app/sass/src/icons.scss */
+  .icon.icon-audio {
+    background: url("../content/images/icons/audio.png") center no-repeat;
+    background-size: contain; }
+
+/*# sourceMappingURL=compiled.css.map */

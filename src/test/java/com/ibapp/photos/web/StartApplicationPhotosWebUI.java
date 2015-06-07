@@ -14,7 +14,7 @@ public class StartApplicationPhotosWebUI {
 
     public static void main (String[] args) throws Exception {
 
-        String webAppDirLocation = "/photos_web_app/src/main/webapp";
+        String webAppDirLocation = "/home/imran/photos_web_app/src/main/webapp";
 
         Tomcat tomcat = new Tomcat();
 
@@ -27,7 +27,7 @@ public class StartApplicationPhotosWebUI {
 
         tomcat.setPort(Integer.valueOf(webPort));
 
-        Context context = tomcat.addWebapp("/photosWebApp", new File(webAppDirLocation).getAbsolutePath());
+        tomcat.addWebapp("/photosWebApp", new File(webAppDirLocation).getAbsolutePath());
 
         tomcat.start();
         tomcat.getServer().await();

@@ -28,7 +28,7 @@ public class HomeController {
 
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public String getMediaByTag(Model model, @RequestParam(value = "tag", required = false, defaultValue = "car")
+    public String getMediaByTag(Model model, @RequestParam(value = "tag", required = false, defaultValue = "flowers")
                     String tag, @RequestParam(value = "numImg", required = false) Integer numImg) {
 
         String mediaFeedURI = instagramURI + "v1/tags/"+tag+"/media/recent" + accessToken;
